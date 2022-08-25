@@ -2,6 +2,7 @@
 title: 如何建立个人网站
 date: 2022-08-24 23:16:42
 tags: Web
+updated: 2022-08-25 10:45:22
 ---
 
 # 云服务器
@@ -10,19 +11,33 @@ tags: Web
 
 [腾讯云](https://cloud.tencent.com/)
 
-![腾讯云](../images/website-01.png)
 
 [阿里云](https://www.aliyun.com/)
 
-![阿里云](../images/website-02.png)
 
 [阿里云学生页面](https://developer.aliyun.com/plan/student?spm=5176.21213303.4134825510.1.2b8853c9Zul9t0&scm=20140722.S_card@@%E5%95%86%E5%93%81@@1624683.S_cardgbdt.ID_card@@%E5%95%86%E5%93%81@@1624683-RL_%E5%AD%A6%E7%94%9F-OR_ser-V_2-P0_0)
 
-![阿里云学生页面](../images/website-03.png)
 
-在云服务器上建站最好先学习一下Linux命令行，个人认为云服务器可玩性比较强，因为云厂商提供了较为丰富的上手教程，下图为阿里云服务器使用ssh登录的页面：
+在云服务器上建站最好先学习一下Linux命令行，个人认为云服务器可玩性比较强，因为云厂商提供了较为丰富的入门教程，上手比较快。
 
-![](../images/website-04.jpg)
+
+
+使用ssh登录
+```bash
+ _   _      _ _          ___                     _________ _____
+| | | | ___| | | ___    |_ _|   __ _ _ __ ___   |__  /  _ \_   _|
+| |_| |/ _ \ | |/ _ \    | |   / _` | '_ ` _ \    / /| |_) || |
+|  _  |  __/ | | (_) |   | |  | (_| | | | | | |  / /_|  _ < | |
+|_| |_|\___|_|_|\___( ) |___|  \__,_|_| |_| |_| /____|_| \_\|_|
+                    |/
+root@114.55.89.***'s password:
+Last failed login: Thu Aug 25 01:54:49 CST 2022 from *.*.*.* on ssh:notty
+There was 1 failed login attempt since the last successful login.
+Last login: Wed Aug 24 23:53:26 2022 from *.*.*.*
+
+Welcome to Alibaba Cloud Elastic Compute Service !
+```
+
 
 ## Linux + Apache + MySql + PHP（LAMP）
 
@@ -31,9 +46,7 @@ tags: Web
 ![阿里云安装教程](../images/website-05.png)
 
 
-如下图，就是用WordPress搭建的一个网站，WordPress自带DashBoard可以编辑文章，和基于Github Pages的博客相比，学习成本较低，自带用户管理和评论区功能，可以较快上手，同时有一些插件支持Markdown写作。而对于基于Github Pages的博客而言，增加评论区一般要添加其它依赖，较为繁琐
-
-![](../images/website-06.png)
+如下图，就是用WordPress搭建的一个网站，WordPress自带DashBoard可以编辑文章，和基于Github Pages的博客相比，学习成本较低，自带用户管理和评论区功能，可以较快上手，同时有一些插件支持Markdown写作。而对于基于Github Pages的博客而言，增加评论区一般要添加其它依赖，较为繁琐。
 
 
 ![](../images/website-07.png)
@@ -49,9 +62,29 @@ tags: Web
 
 ## 其他
 
-服务器比较其中比较重要的资源就是珍贵的公网IP了，比如说可以作为IM软件（即时通信，如微信）的中继服务器。其实很多应用在本地机就可以运行，如Spring Boot，部署到服务器上除了能够把你的网站或服务开放给别人之外，也迫使你学习部署和运维的一些技巧，个人认为这也是DevOps的精神的一种体现
+服务器比较其中比较重要的资源就是珍贵的公网IP了，比如说可以作为IM软件（即时通信，如微信）的中继服务器。其实很多应用在本地机就可以运行，如Spring Boot，部署到服务器上除了能够把你的网站或服务开放给别人之外，也迫使你学习部署和运维的一些技巧，了解到生产环境的工作全流程，个人认为这也是现在似乎广受推崇的DevOps的一种体现。
 
+# Github Pages
+[Github Pages](https://pages.github.com/)提供了username.github.io的域名，将代码仓库里的markdown格式的文件转换为网站。借助Github Actions，经过一定配置后，可以在每一次仓库的push动作后自动集成，自动部署，十分方便。
 
+本网站使用的就是[Hexo博客框架](https://hexo.io/zh-cn/),官网有非常详细的教程，通过配置文件的方式来定制自己喜欢的网站风格和布局。
+
+个人总结了一下在github上建站的几点**好处**：
++ **免费**，不用租服务器。
+  
++ 对于喜欢用**Markdown**写作的人来说是福音，没有过多的插件需要下载。
+  
++ 方便迁移，全部文章以**Markdown**格式存储，在框架的帮助下，相同的文件既可以在自己的服务器上部署，也可以在github.io上部署。
+
++  **Github Actions**提供了持续集成/持续部署的服务（CI/CD），简单来说，只要仓库有新的push（配置更改或新文章），整个网站就会在后台自动重新生成一遍。
+  
+  **缺点**
+  + 配置项多，编辑起来不如CSDN、WordPress直观。
+  + 访问速度受限，不适合插入过多的图片
+
+# 技术论坛
+
+如果不想折腾，在技术论坛上开一个账号也是很方便快捷的，比如说CSDN、稀土掘金、infoQ等网站。主流的技术论坛一般都支持**Markdown**，排版上无需消耗过多的精力。同时，如果文章中有大量图片等静态资源的话，这些论坛在**CDN**服务器的帮助下，加载起来比较迅速，而自建服务器和Github Pages的带宽有限，加载速度一般。
 
 
 
