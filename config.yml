@@ -6,6 +6,8 @@ enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
+enableGitInfo: true
+copyright: Ruitian Zhong 2022-2023
 
 googleAnalytics: UA-123-45
 
@@ -84,7 +86,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/ruitianzhong.github.io/content"
+    URL: "https://github.com/ruitianzhong.github.io/tree/main/content/main"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
