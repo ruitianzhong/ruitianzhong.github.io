@@ -1,6 +1,7 @@
 theme: "PaperMod"
 baseURL: "https://ruitianzhong.github.io"
 paginate: 10
+title: rtzhong's blog
 
 enableRobotsTXT: true
 buildDrafts: false
