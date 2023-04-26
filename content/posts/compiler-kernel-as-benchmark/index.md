@@ -1,6 +1,6 @@
 ---
 title: "不同机器编译Linux内核的时间"
-date: 2023-04-26T22:54:00 +08:00
+date: 2023-04-26T22:54:00+08:00
 summary: "测试各种不同的机器上编译Kernel的时间"
 showtoc: false
 ---
