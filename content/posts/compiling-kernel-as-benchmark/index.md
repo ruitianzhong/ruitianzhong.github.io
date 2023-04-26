@@ -9,6 +9,7 @@ showtoc: false
 ### 编译设置
 ```bash
 make defconfig # 默认配置
+make clean     # 确保从0开始构建
 time make -j16 # 并行作业数16
 ```
 
