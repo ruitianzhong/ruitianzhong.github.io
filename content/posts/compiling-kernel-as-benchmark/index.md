@@ -17,7 +17,7 @@ time make -j16 # 并行作业数16
 ## E楼Ⅱ区203的台式电脑
 
 ### 配置
-+ OS：Open Kylin（Kubuntu）
++ OS：Open Kylin
 + CPU： 12 th Gen Intel Core i7-12700 物理核12个，超线程后逻辑核（操作系统视角）有20个
 + RAM: 16 GB
 ### 结果
