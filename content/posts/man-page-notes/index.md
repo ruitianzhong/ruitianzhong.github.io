@@ -8,6 +8,7 @@ categories:
 tags: 
 - Docs Reading
 ---
+*Last Modified :  2023-07-05*
 
 # Motivation
 
@@ -83,3 +84,48 @@ You must not assume the vDSO is mapped at any particular location in the user's 
    TBD...
 
 
+
+
+## brk & sbrk
+
++ *brk()* & *sbrk()* change the location of the program break.
+
++ *brk()* set the end of the data segment to the value specified by addr.
+
++ *sbrk()* increments the program's data space by increment bytes. sbrk(0) gets the current location of the program break.
+
++ *malloc(3)* memory allocation is the portable and comfortable way of allocating memory.
+
+### code snippet
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+int main(){
+       void * p1;
+       p1 = sbrk(0);
+       if(p1 == (void*)-1){
+               perror("sbrk");
+               exit(EXIT_FAILURE);
+       }
+       printf("current break : %p\n",p1);
+       char * p2 = malloc(4096);
+       if(p2 == 0) {
+               perror("malloc");
+               exit(EXIT_FAILURE);
+       }
+       p1 = sbrk(0);
+       if(p1 == (void*)-1){
+               perror("sbrk");
+               exit(EXIT_FAILURE);
+       }
+      printf("current break : %p\n",p1);
+      if (brk(p1+4096)){
+                perror("brk");
+                exit(EXIT_FAILURE);
+      }
+      printf("current break : %p\n",sbrk(0));
+      exit(EXIT_SUCCESS);
+}
+
+```
