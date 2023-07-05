@@ -8,6 +8,20 @@ categories:
 ---
 
 
+## 2023/07/04
+
++ x86_64里面有一条endbr64指令，看了一些相关的资料，发现里面的内容还是很多的，Intel把它叫做Contro-flow Enforcement Technology（CET），简单来说，跳转指令执行后如果跳转到的指令不是endbr64的话，处理器抛出异常，这是一种JOP（Jump Oriented Programming）攻击的缓解措施（Mitigation）。
+
+  在这之前的历史也十分有趣，在这之前还有一种攻击手段叫做ROP（Return Oriented Programming），简单来说就是利用程序本身漏洞改写保存在栈上函数的返回地址，从而使得函数返回时跳转到一个错误的地方，一种防护方法就是在原有的栈之外设立一个影子栈（Shadow Stack），入栈出栈操作在两个栈上同时进行，如果出栈的结果不一致，处理器抛出错误，阻断了ROP攻击。只不过还没怎么看过具体实现，感觉有时间可以看看......
+  
++ 看了一些资料发现ASLR（Address Space Layout Randomization）技术也是可以被绕过的，loadtime、runtime等不同阶段都会有一些信息（code locator）可以被攻击者利用来猜出其他模块被加载到的地址，比如栈上会存储caller函数的地址，如果能够获得这个地址，的确是可以猜到一些信息，从而实施JOP这样的攻击。
+
++  看了一下musl malloc()的实现，主要还是通过brk()系统调用来获得内存，*cat /proc/${pid}/maps* 可以看到它所在的区域叫做Heap，第一次调用brk（0）的时候，获得当前heap地址。
+
++  **疑问1**:
+   musl ldso里struct dso::deps的作用？
+
+
 ## 2023/07/03
 + 读了一下ld.so的Man Page，了解到`LD_DEBUG` & `LD_SHOW_AUXV`这两个环境变量的作用, musl和glibc的ld.so（动态连接器都是可以通过命令行启动）.
 
