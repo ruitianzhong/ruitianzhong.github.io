@@ -139,11 +139,180 @@ int main(){
 + **RTLD_NOLOAD**: This flag can be used to promote the flags on a shared object that is already loaded.
 + **RTLD_NODELETE**: Do not unload the shared object during dlclose().
 + **RTLD_DEFAULT**: find the first occrurence of the desired symbol using the default shared object order.
-+ **RTLD_NEXT**: Find the next occurence of the desired symbol in the search order after the current object.This allows one to provide a wrapper around a function in another shared object. For example,the definition of a function in a preloaded shared object can find and invoke the real function provided in another shared object.
++ **RTLD_NEXT**: Find the next occurence of the desired symbol in the search order after the current object.This allows one to provide a wrapper around a function in another shared object. For example,the definition of a function in a preloaded shared object can find and invoke the real function provided in another shared object.(**NOTE**:This is a spectial pseudo handle with type void*)
 + *_GNU_SOURCE* feature test macro must be defined in order to obtain the definitions of RTLD_DEFAULT and RTLD_NEXT from <dlfcn.h>
 
 ### Code Snippet
-TBD
+
+#### Simple dlopen & dlsym usage
+`dl.c`
+```c
+#include <stdio.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <dlfcn.h>
+int main(int argc, char *argv[])
+{
+	void *handle;
+	int (*hello)(void);
+	char *error;
+	handle = dlopen("libfunc.so", RTLD_LAZY);
+	if (!handle)
+	{
+		fprintf(stderr, "%s\n", dlerror());
+		exit(EXIT_FAILURE);
+	}
+	hello = (int (*)(void))dlsym(handle, "hello");
+	error = dlerror();
+	if (error != NULL)
+	{
+		fprintf(stderr, "%s\n", error);
+		exit(EXIT_FAILURE);
+	}
+	printf("magic number:%d\n", hello());
+	hello();
+	dlclose(handle);
+	handle = dlopen("libfunc.so", RTLD_NOW);
+	if (handle == NULL)
+	{
+		fprintf(stderr, "%s\n", dlerror());
+		exit(EXIT_FAILURE);
+	}
+	int (*world)(char *);
+	world = (int (*)(char *))dlsym(handle, "world");
+	if (world == NULL)
+	{
+		fprintf(stderr, "%s\n", dlerror());
+		exit(EXIT_FAILURE);
+	}
+	world("world");
+	if (argc == 1)
+		exit(EXIT_SUCCESS);
+	//	return 0;
+	_exit(0);
+}
+```
+
+`func.c`
+```c
+#include <stdio.h>
+
+int hello(){
+	return 42;
+}
+__attribute__((destructor(65535)))void destructor1(){
+		printf("destructor 1\n");
+}
+
+__attribute__((destructor(101)))void destructor2(){
+		printf("destructor 2\n");
+}
+
+int world(char * s){
+    if(s==0) return -1;
+     printf("hello %s\n",s);
+     return 0;
+}
+```
+
+command:
+```shell
+$ gcc -o libfunc.so -shared func.c
+$ gcc -o dl dl.c
+$ LD_LIBRARY_PATH=./ ./dl
+$ LD_LIBRARY_PATH=./ ./dl arbitrary_para
+```
+
+#### Advanced usage of dlopen & dlsym
+`next.c`
+```c
+#include <stdio.h>
+#include <stdlib.h>
+
+int hello();
+int main(int argc, char *argv[])
+{
+        hello();
+        exit(EXIT_SUCCESS);
+}
+
+```
+
+`preload.c`
+```c
+#define _GNU_SOURCE 
+#include <stdio.h>
+#include <stdlib.h>
+#include <dlfcn.h>
+
+// This is a wrapper function
+int hello(){
+     static int a ;
+     if(a == 0){
+      a = 1;
+      int (*real_impl)(void);
+      real_impl =(int(*)(void)) dlsym(RTLD_NEXT,"hello");
+      if(!real_impl){
+	      fprintf(stderr,"dlsym failed:%s\n",dlerror());
+	      exit(EXIT_FAILURE);
+      }
+      real_impl();
+      real_impl = (int(*)(void)) dlsym(RTLD_DEFAULT,"hello");
+      if(!real_impl){
+	      fprintf(stderr,"dlsym failed:%s\n",dlerror());
+	      exit(EXIT_FAILURE);
+      }
+      real_impl();
+     }else {
+	     printf("re-enter hello() function\n");
+     }
+     return 0;
+}
+```
+`func.c`
+```c
+#include <stdio.h>
+
+int hello()
+{
+    printf("hello impl\n");
+    return 42;
+}
+__attribute__((destructor(65535))) void destructor1()
+{
+    printf("destructor 1\n");
+}
+
+__attribute__((destructor(101))) void destructor2()
+{
+    printf("destructor 2\n");
+}
+
+int world(char *s)
+{
+    if (s == 0)
+        return -1;
+    printf("hello %s\n", s);
+    return 0;
+}
+
+```
+
+command:
+```shell
+$ gcc -o libfunc.so -shared func.c
+$ gcc -o libpreload.so -shared -fPIC preload.c
+$ gcc -o next next.c -L./ -lfunc 
+$ LD_LIBRARY_PATH=./ LD_PRELOAD=./libpreload.so ./next 
+```
+
+output:
+```shell
+hello impl
+re-enter hello() function  # really interesting...
+destructor 1
+destructor 2
+```
 
 ## feature_test_macros
 TBD
