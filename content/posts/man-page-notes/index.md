@@ -8,7 +8,7 @@ categories:
 tags: 
 - Docs Reading
 ---
-*Last Modified :  2023-07-05*
+*Last Modified :  2023-07-06*
 
 # Motivation
 
@@ -129,3 +129,21 @@ int main(){
 }
 
 ```
+
+## dlinfo & dlsym & dlinfo
+
++ **RTLD_LAZY**: Perform lazy binding.
++ **RTLD_NOW**: all undefined symbols in the shared object are resolved before dlopen() returns.
++ **RTLD_GLOBAL**
++ **RTLD_LOCAL**
++ **RTLD_NOLOAD**: This flag can be used to promote the flags on a shared object that is already loaded.
++ **RTLD_NODELETE**: Do not unload the shared object during dlclose().
++ **RTLD_DEFAULT**: find the first occrurence of the desired symbol using the default shared object order.
++ **RTLD_NEXT**: Find the next occurence of the desired symbol in the search order after the current object.This allows one to provide a wrapper around a function in another shared object. For example,the definition of a function in a preloaded shared object can find and invoke the real function provided in another shared object.
++ *_GNU_SOURCE* feature test macro must be defined in order to obtain the definitions of RTLD_DEFAULT and RTLD_NEXT from <dlfcn.h>
+
+### Code Snippet
+TBD
+
+## feature_test_macros
+TBD
