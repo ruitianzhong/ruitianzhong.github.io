@@ -6,6 +6,16 @@ showtoc: false
 categories:
 - daily-record
 ---
+## 2023/07/13
+### 文件系统的崩溃一致性（Crash Consistency）
++ redo log & undo log & WAL(Write Ahead Log)（至少要写两次）
++ Soft Update & 依赖追踪（循环依赖）& 撤销操作（重新开机时可以一边修复一边接收新的请求）
++ 同步写入（低效的方法）
++ 写时拷贝（容易出现写放大的现象，尤其是写入数据比较小的情况下，如1字节）
++ Ext4 文件系统不同的日志模式（ordered、journal、writeback）（针对文件数据，非元信息）
++ Log-structured File System（LFS）& Wear Leveling & Segment（一种折衷的方法）
++ FUSE（用户态文件系统）：容易调试、和内核隔离、可以使用丰富的第三方库
+
 
 
 ## 2023/07/12
