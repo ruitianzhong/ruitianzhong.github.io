@@ -6,6 +6,37 @@ showtoc: false
 categories:
 - daily-record
 ---
+
+## 2023/07/14
+
+### 不同类型的操作系统
++ 简要结构内核
++ 宏内核
++ 微内核（内核态功能比较少，提供IPC、进程/线程等功能，大多数功能在用户态以服务的形式实现，比如，缺页中断处理可以在用户态进行，减小攻击面，某个模块崩溃的时候缩小影响面），比较有代表性的是MACH、L4微内核
++ Exokernel，也叫做外核，内核主要提供资源抽象和硬件的多路复用
++ Mutilkernel 异构计算
+
+### NUMA
++ 内存控制器容易称为瓶颈，一些内存控制器分布在不同的核心上，本地和远端访问内存时间的不同的架构称为NUMA
++ 远端访问需要通过互联总线（interconnect）来与远端节点通信
++ NUMA节点由一个或多个CPU核心构成
++ NUMA-aware: 1、提供NUMA感知的接口，让应用决定 2、尽可能将内存分配在本地节点
++ Linux：绑定模式、优先模式（从最近的NUMA节点分配）、交错模式，libnuma封装了相关调用
+  
+ ### IPC(Inter-Process Communication)
++ 建立连接的方式
++ Naming Service
++ 权限检查（Capability）
++ 如何提高IPC的性能（减少拷贝的次数、参数传递的方式、LRPC的迁移线程模型）
++ IPC的几种方式（共享内存、信号量Semaphore、信号、管道等）
++ Android Binder IPC（Binder IPC模块、线程池、动态增加线程数量以及设置线程数量的上限、Handle的抽象、服务发现）
+
+### cond_wait() & cond_signal() & cond_broadcast()
++ 生产者消费者问题
++ cond_wait() 放在while循环的原因？
++ cond_signal()需要每次调用？
++ cond_signal 和 释放锁的顺序调换过来会怎么样？
+
 ## 2023/07/13
 ### 文件系统的崩溃一致性（Crash Consistency）
 + redo log & undo log & WAL(Write Ahead Log)（至少要写两次）
