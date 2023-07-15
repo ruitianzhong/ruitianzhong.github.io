@@ -7,6 +7,52 @@ categories:
 - daily-record
 ---
 
+## 2023/07/15
+
+### 缓存一致性
++ 多核下non-inclusive 的cache中的数据需要通过一定手段保持一致
++ LLC（Last Layer Cache）
++ 解决方法directory-based & snoop-based
++ MSI协议：Modified、Shared、Invalid 读取的时候如果是在Shared状态则直接读取、写之前要将其他核心的cache设置为Invalid，注意传输旧的缓存行（原因：缓存一致性以缓存行为为粒度，而一个cacheline大小一般为64个字节，一般来说只会修改其中一个部分，因此要传输旧的缓存行）
+
+### 内存一致性模型
++ 严格一致性模型（Strict Consistency）、顺序一致性模型（Sequential Consistency）、TSO（Total Store Order）、弱序一致性模型（Weak-order Consistency）
++ 严格一致性模型认为两个操作不可能同时发生，处理器核看到的是全局时钟下的顺序
++ 顺序一致性模型：不同核心看到的操作一致（全局顺序），每个核心自己的读写操作可见顺序与程序顺序相同，可能出现一个核上的更新另一个核上的读操作无法读到。
++ TSO 不保证写读的全局可见顺序
++ 弱序一致性：写写、写读、读写、读读都不保证
++ 前提/研究对象：不同地址而且没有依赖（数据依赖、地址依赖）
++ 利用内存屏障来解决问题
++ ARM -> Weak-order Consistency  x86 -> TSO
+
+### 同步原语的可扩展性
++ 当CPU核数比较多的时候，对同一个Cache Line的争抢导致在内存一致性协议上开销增大，从而出现核数增加反而性能下降的情况
++ 解决方法：MCS队列
++ NUMA下Cohert锁：全局锁+NUMA节点上的锁，全局锁直到本NUMA节点上的所有请求得到满足后释放，需要解决饥饿问题和公平性问题：限制单个NUMA节点的请求。（尽可能减少跨NUMA节点的迁移）
+
+
+### Side Channel & Covert Channel
++ Flush + Reload
++ Flush + Flush
++ Prime + Probe
++ Evict + Reload
++ Meltdown
++ Spectre
+
+### TEE
++ Intel SGX（Secure Guard eXtension）、Enclave concept
++ 应用、OS、虚拟机级别的隔离
++ 两大特征：隔离执行 + 远程认证
++ 操作系统、Hypervisor不可信的情况下的解决方案
+
+### MISC
++ Linux Test Project（syscall测试）
++ kernelci（Fengguang Wu？）（硬件兼容性）
++ selftest
++ 软件兼容性（POSIX相关的测试）
++ 性能测试？
+
+
 ## 2023/07/14
 
 ### 不同类型的操作系统
