@@ -6,6 +6,17 @@ showtoc: false
 categories:
 - daily-record
 ---
+## 2023/07/16
+
+### KVM/ARM
++ IO
++ 中断
++ CPU
++ 内存
++ KVM/ARM 合并进入内核主线的过程让人印象深刻
++ split mode virtualization（适应ARM的相关设计）
++ Code Reuse
+  
 
 ## 2023/07/15
 
