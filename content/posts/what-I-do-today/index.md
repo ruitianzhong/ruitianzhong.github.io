@@ -6,6 +6,23 @@ showtoc: false
 categories:
 - daily-record
 ---
+
+## 2023/07/17
+### KVM/ARM(接着昨天的写)
++ 中断虚拟化：ARM中有一个GIC（Generic Interrupt Controller），而虚拟化的ARM架构提供了vGIC（virtual Generic Interrupt Controller），而GIC又分为CPU的Interface和Ditributor，中断的处理过程中包括了EOF和ACK等机制，而在arm中，这两个操作都可以由硬件完成。
++ IO虚拟化：主要使用了virtio，对MMIO的读写会导致陷入KVM当中
++ **疑问1**：对于多个不同的VM，KVM内部是怎样管理的？
++ split-mode virtualization：ARM专门为那种运行在bare metal上的Hypervisor（比如说Xen）设计了Hyp mode，但对于KVM这种位于操作系统内核中的VMM来说，需要经过很大的修改才能够使得Kernel的代码运行在Hyp mode中（Hyp mode 和 Kernel mode有不一致的地方），因此设计者提出了split-mode virtualization。简单来说，在Hyp mode中运行lowvisor，在kernel mode当中运行highvisor，当从VM陷入到KVM时，先进入lowvisor，做一些必要的工作，然后转到处于kernel mode的highvisor，完成大部分的工作，而返回时则按照相反的顺序进行。有意思的是，开发的时候有个问题比较有意思：
+  
+> An important issue in developing KVM/ARM was how to get access to Hyp mode across the plethora of available ARM SoC platforms supported by Linux.
+
+如果在一开始初始化Hyp mode需要BIOS提供相关支持（install trap handler），否则kernel启动的时候可能会crash，这需要很多的外部支持。
+而最终选择的方法是让内核在Hyp mode模式下启动，在启动过程中KVM/ARM检测当前是Kernel Mode还是Hyp Mode，并且有不同的应对方法。
++ 提到了Catch 22（第二十二条军规）这个问题：想要给内核贡献这样一个重要功能需要先成为Known Contributor，但成为known contributor又要先贡献代码。
+因此，作者认为，先从小的地方贡献（比如说清理内核代码、使得代码更加通用）
+  
+
+
 ## 2023/07/16
 
 ### KVM/ARM
