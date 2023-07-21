@@ -7,6 +7,33 @@ categories:
 - daily-record
 ---
 
+## 2023/07/21
+
+### DPDK
++ Data Plane Development Kit
++ 本质上是为了减少拷贝次数（内核态 <-> 用户态）（Zero Copy）
++ 用户态驱动：需要暴露一些接口，让用户态控制设备（UIO），通过一些接口（如read）返回中断的次数
++ PMD（Poll Mode Driver）：如果中断次数过多，内核态和用户态之间反复切换，不利于性能，因此，每次中断时，将设备关中断，采取轮询的方式，没有网络包到来的时候恢复中断，希望一次处理更多的网络包。（启发：Interrupt + Poll 似乎是一种优化的方法）
++ **疑问**：是否会有安全问题？如何解决的？
+
+### Futex
++ Fast User-space mutual EXclusiion
++ 减少可睡眠互斥锁的加锁次数
++ 也可以用来实现条件变量
+
+### File System
+
+#### 基于inode的文件系统
++ Ext4
++ 目录也是文件，利用原有的机制
++ 多级inode
++ Super Block & inode
+
+
+#### 基于表的文件系统
++ NTFS：MFT（Master File Table）、Sparse File、各种属性、日志支持等
++ FAT（File Allocation Table）：短文件名
+
 ## 2023/07/20
 
 ### 调度
