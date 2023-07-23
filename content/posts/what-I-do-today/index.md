@@ -7,6 +7,22 @@ categories:
 - daily-record
 ---
 
+## 2023/07/23
+
+### Go Programming Language Notes
++ for range 语法
+```go
+var arr [4]int
+for i,v:= range arr{
+
+}
+```
++ Channel <- ch & c<-v & sync & close & for range
++ Mutex lock & unlock 使用defer解锁
++ 方法，*Type和Type的区别（指针和值传递的区别、interface）
++ string.Fields(需要 import "string")
+  
+  
 ## 2023/07/22
 
 ### Golang 应该关注的地方
