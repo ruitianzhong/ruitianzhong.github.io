@@ -206,8 +206,8 @@ func main() {
   return
  }
  input = strings.TrimSuffix(input, "\n")
+ 
  fmt.Println(input)
-
 }
 
 ```
