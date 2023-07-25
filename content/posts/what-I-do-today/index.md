@@ -7,6 +7,22 @@ categories:
 - daily-record
 ---
 
+## 2023/07/25
+
+### Vocabulary
+
++ rudimentry 基本的
++ bimodal 双峰的
++ break down 分解
++ modal 情态动词、模式的
++ marked departure 显著的差异
+
+### 灵敏性检验
+
++ 衡量某个参数改变对最后得到的结果的影响
++ 保证结果的稳健性
++ 多目标规划需要标准化+加权
+
 ## 2023/07/24
 
 ### Go Programming Language Notes 2
