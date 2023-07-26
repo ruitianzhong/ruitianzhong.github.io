@@ -7,9 +7,22 @@ categories:
 - daily-record
 ---
 
+## 2023/07/26
+
+### Vocabulary 2
+
++ boilerplate
++ chronological
++ lexicographic
++ contiguous
+
+### MapReduce & Bigtable & GFS
+
++ 这三者的关系？
+
 ## 2023/07/25
 
-### Vocabulary
+### Vocabulary 1
 
 + rudimentry 基本的
 + bimodal 双峰的
