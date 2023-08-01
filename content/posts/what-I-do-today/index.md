@@ -7,6 +7,22 @@ categories:
 - daily-record
 ---
 
+## 2023/08/01
+
+### Vocabulary 3
+
++ inter-machine & intra-machine
++ devise 设计
++ de-facto
++ scaffold
++ indictment
++ refute
++ full fledged
++ testbed
++ premise
++ i.e. & i.g.
++ ranger
+
 ## 2023/07/30
 
 ### Excel 中的小技巧
@@ -21,7 +37,7 @@ categories:
 
 ### Matlab
 
-+ 函数作为参数传递，@func 
++ 函数作为参数传递，@func
 
 ## 2023/07/27
 
