@@ -7,6 +7,34 @@ categories:
 - daily-record
 ---
 
+## 2023/08/02
+
+### Vocabulary 4
+
++ wrangle 争吵
++ franchisor 特许经营人
++ denote 表示
++ onerous
++ sporadic 零星的
++ side-step
++ bisection method
++ intersection
++ redhanded 当场抓获的
++ denominator 分母
++ adhesive 有粘性的
++ tier
++ myopia  
+
+### Open Harmony 1
+
++ BearPi Nano
++ Riscv32
++ 开发方式：烧录、编辑在Windows上进行，（交叉）编译在远程的Linux服务器上进行
++ usleep & Gpio*
++ *.gn
++ 原本文档里的下载连接失效了，[新的网址](https://mirrors.huaweicloud.com/harmonyos/compiler/gcc_riscv32/7.3.0/linux/)
++ hello_world & LED
+  
 ## 2023/08/01
 
 ### Vocabulary 3
