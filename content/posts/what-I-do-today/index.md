@@ -7,6 +7,13 @@ categories:
 - daily-record
 ---
 
+## 2023/08/03
+
+### Vocabulary 5
+
++ depose 
++ electorate
+
 ## 2023/08/02
 
 ### Vocabulary 4
