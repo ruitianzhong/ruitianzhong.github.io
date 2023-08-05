@@ -7,11 +7,15 @@ categories:
 - daily-record
 ---
 
+## 2023/08/04 - 2023/08/05
+
+ 参加了2023华为开发者大会，见世面了...
+
 ## 2023/08/03
 
 ### Vocabulary 5
 
-+ depose 
++ depose
 + electorate
 
 ## 2023/08/02
