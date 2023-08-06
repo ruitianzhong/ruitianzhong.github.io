@@ -7,6 +7,17 @@ categories:
 - daily-record
 ---
 
+## 2023/08/06
+
+### Vocabulary 6
+
++ hindsight
++ bombard
++ electorate
++ anti-semitism
++ ephemeral 短暂的
++ coarse-grained
+
 ## 2023/08/04 - 2023/08/05
 
  参加了2023华为开发者大会，见世面了...
