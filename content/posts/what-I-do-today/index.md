@@ -7,6 +7,19 @@ categories:
 - daily-record
 ---
 
+## 2023/08/07
+
+### Vocabulary 7
+
++ heavy handed 高压的，大手大脚的，用某物过多
++ relinquish 不情愿放弃
++ egregious 糟糕的
++ negatively cached
++ irksome 令人烦恼的
++ semicolon 分号
++ quadratic 平方的
++ massive heart attack
+
 ## 2023/08/06
 
 ### Vocabulary 6
