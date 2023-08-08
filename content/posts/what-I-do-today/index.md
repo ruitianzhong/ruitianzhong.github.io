@@ -7,6 +7,28 @@ categories:
 - daily-record
 ---
 
+## 2023/08/08
+
+### Vocabulary 8
+
+P177
+
++ in lockstep
++ dazzle
++ illegible
++ discretion
++ discern
++ vindicate
++ dogmatic
++ tangle
++ entangle
++ confound
++ enigma
++ elude
++ captivate
++ riddle
++ labyrinth
+
 ## 2023/08/07
 
 ### Vocabulary 7
