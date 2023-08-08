@@ -51,7 +51,7 @@ re*
 re+
 re?
 re{n}
-re(n,}
+re{n,}
 re{n,m}
 a | b
 (re) group
@@ -220,4 +220,47 @@ class LittleDog(Dog):
 dog = LittleDog()
 dog.getName()
 
+```
+
+## Regular Expression Exercise
+
+```python
+import re
+
+# Regular Expression
+pattern1 = r'^(?P<year>\d{4})-(?P<month>\d{2})-(?P<day>\d{2})$'
+s1 = "2023-08-08"
+s2 = "2022-12-15"
+p = re.compile(pattern1)
+
+print(re.sub('-', ".", s1))
+
+result = p.search(s1)
+print(result.groupdict())
+print(int(result.groupdict()['month']))
+result = p.search(s2)
+print(result.groupdict())
+# None
+a = {'key1': 1}
+
+if a.get('key2') is None:
+    print('None')
+# Difference between search & match
+print(re.match('func', 'abc_func') is None)
+print(re.search('func', 'abc_func') is None)
+
+# ()表示捕获分组 (?:) 表示非捕获分组，非捕获分组的值不会保存起来
+# (?=pattern) 表示匹配以pattern结尾的内容
+# (?!pattern) negative assert
+# (?<=pattern) 以pattern开头
+# (?<!pattern) 不以pattern开头
+print(re.search(r'Windows(?=95|NT|7|10|11)', 'Windows10').group(0))
+assert re.search(r'Windows(?=95)', 'Windows10') is None
+
+print(re.search(r'www.(zrt|example ).ink', 'www.zrt.ink').group(0))
+print(re.findall(r'www.(zrt|example ).ink', 'www.zrt.ink'))
+print(re.findall(r'www.(?:zrt|example).ink', 'www.zrt.ink'))
+
+print(re.split(r'\d+', 'abc23cde3efg'))
+print(re.split(r'(\d+)', 'abc23cde3efg'))
 ```

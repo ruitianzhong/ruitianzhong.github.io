@@ -10,7 +10,7 @@ tags:
 ---
 *Last Modified :  2023-07-06*
 
-# Motivation
+## Motivation
 
 Just to record some takeaways when reading man page
 
@@ -38,7 +38,7 @@ You must not assume the vDSO is mapped at any particular location in the user's 
 
 ### Miscellaneous
 
-+ For x86_64, linux-vdso.so.1
+* For x86_64, linux-vdso.so.1
 
 * System calls exported by vDSO will not appear in the trace output when using **strace** and will not be visible to seccomp filters
 
