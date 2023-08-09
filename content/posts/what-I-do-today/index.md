@@ -7,6 +7,43 @@ categories:
 - daily-record
 ---
 
+## 2023/08/09
+
+### Vocabulary 9
+
++ needy,poor,indigent
++ penury
++ drawback
++ exponent
++ redress
++ ration
++ rebate
++ inventory
++ inertia
++ residue
++ acting
++ disburse
++ reimburse
++ garner
++ patronage
++ barter
++ bond
++ means
++ ransome
++ current & saving & credit account
++ noxious
++ sewage
++ ozonosphere
++ **decibell**
++ fume
++ polygamous
++ clan
++ rustic
++ exotic
++ marital
++ genteel
++ patriarchal
+
 ## 2023/08/08
 
 ### Vocabulary 8
