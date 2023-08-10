@@ -7,6 +7,29 @@ categories:
 - daily-record
 ---
 
+## 2023/08/10
+
+### Vocabulary 10
+
++ catching
++ anatomy
++ malnourished
++ aerobic
++ tingle
++ susceptible
++ numb
++ gash
++ sterile
++ inoculation
++ fester
++ intoxicate
++ fracture
++ lean
++ sustenance
++ relapse
++ morbid
++ bruise
+
 ## 2023/08/09
 
 ### Vocabulary 9
