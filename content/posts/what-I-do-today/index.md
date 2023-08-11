@@ -7,6 +7,39 @@ categories:
 - daily-record
 ---
 
+## 2023/08/11
+
+### Vocabulary 11
+
++ garlic
++ plow
++ reservatory
++ prolific
++ aquaculture
++ husbandry
++ insecticide
++ silt
++ squash
++ hay
++ poultry
++ sow
++ cowshed
++ seedbed
++ sheepfold
++ pigpen
++ graze
++ manure
++ horticulture
++ abidicate
++ sawtooth
++ causality
++ gorge
++ meadow
++ canyon
++ scenic
++ limpid
++ puddle
+
 ## 2023/08/10
 
 ### Vocabulary 10
