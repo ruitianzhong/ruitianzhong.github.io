@@ -7,6 +7,38 @@ categories:
 - daily-record
 ---
 
+## 2023/08/12
+
+### Vocabulary 12
+
++ cohort
++ cogent
++ succinct
++ clause
++ genre
++ linguistic
++ phonetic
++ tense
++ verse
++ emend
++ adage
++ fable
++ paraphrase
++ adaptation
++ abridge
++ excerpt
++ synopsis
++ petition
++ confedrate
++ regimen
++ confer
++ hustle
++ deport
++ oust
++ municipal
++ anarchism
++ potent
+
 ## 2023/08/11
 
 ### Vocabulary 11
