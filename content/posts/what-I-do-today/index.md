@@ -7,6 +7,45 @@ categories:
 - daily-record
 ---
 
+## 2023/08/13
+
+### Vocabulary 13
+
++ runway incursion
++ illicit
++ inruly
++ domineering
++ heirage
++ indemnity
++ captivity
++ plaintiff
++ abstain
++ stipulate
++ substantiate
++ confiscate
++ arbitration
++ acquit
++ credential
++ plea
++ condone
++ incriminate
++ denounce
++ cipher
++ fort
++ beset
++ envelop
++ besiege
++ corps
++ squad
++ encroach
++ despoil
++ repulse
++ expedition
++ dissimulate
++ hatchet
++ armament
++ exterminate
+
 ## 2023/08/12
 
 ### Vocabulary 12
