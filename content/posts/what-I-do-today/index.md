@@ -7,6 +7,33 @@ categories:
 - daily-record
 ---
 
+## 2023/08/14
+
+### Vocabulary 14
+
++ saddle
++ jurisdiction
++ blizzard
++ balmy
++ dank
++ moisture
++ serene
++ arid
++ chilly
++ tepid
++ gale
++ breeze
++ blast
++ meteorology
++ drizzle
++ pricipitate
++ pricipitation
++ dew
++ hail
++ downpour
++ droplet
++ tempist
+
 ## 2023/08/13
 
 ### Vocabulary 13
