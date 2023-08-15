@@ -7,6 +7,36 @@ categories:
 - daily-record
 ---
 
+## 2023/08/15
+
+### Vocabulary 15
+
++ counsel
++ playwright
++ clergy
++ archeologist
++ choreographer
++ imagist
++ herist
++ philantropist
++ connoisseur
++ orator
++ micer
++ debtor
++ benefactor
++ inferior
++ fanatic
++ novice
++ adherent
++ barbaric
++ pricursor
++ bandit
++ alumni
++ proprietor
++ illiterate
++ botanist
++ satirist
+
 ## 2023/08/14
 
 ### Vocabulary 14
