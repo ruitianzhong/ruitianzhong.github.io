@@ -7,6 +7,35 @@ categories:
 - daily-record
 ---
 
+## 2023/08/16
+
+### Vocabulary 16
+
++ string
++ wind
++ percussion
++ orchestra
++ chorus
++ episode
++ conservatory
++ movement
++ harsh
++ euphonious
++ priest
++ figurehead
++ envoy
++ autocrat
++ aristocrat
++ foe
++ beneficiary
++ malcontent
++ disciple
++ throng
++ assassin
++ anthropologist
++ paleoanthropologist
++ advant-garde
+
 ## 2023/08/15
 
 ### Vocabulary 15
