@@ -7,6 +7,40 @@ categories:
 - daily-record
 ---
 
+## 2023/08/17
+
+### Vocabulary 17
+
++ conduct
++ instill
++ didactic
++ discipline(subject)
++ sermon
++ dission
++ oscillation
++ ion
++ neutron
++ electron
++ proton
++ nucleus
++ band
++ sonar
++ ultrasonics
++ resonation
++ shafe
++ declivity
++ ventilation
++ dilute
++ attrition
++ clot
++ clutter
++ impetus
++ optical
++ thaw
++ expedite
++ thermodynamics
++ sublimate
+
 ## 2023/08/16
 
 ### Vocabulary 16
