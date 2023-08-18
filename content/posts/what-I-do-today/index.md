@@ -7,6 +7,31 @@ categories:
 - daily-record
 ---
 
+## 2023/08/18
+
+### Vocabulary 18
+
++ anthropology
++ tribe
++ descent
++ aboriginal
++ forerunner
++ cranial
++ hominid
++ nomatic
++ starsh
++ spore
++ pollinate
++ luxuriant
++ flora
++ acoustic
++ transpire
++ quiver
++ brim
++ brink
++ rim
++ constituent
+
 ## 2023/08/17
 
 ### Vocabulary 17
