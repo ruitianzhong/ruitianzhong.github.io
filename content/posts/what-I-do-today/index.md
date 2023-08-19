@@ -7,6 +7,38 @@ categories:
 - daily-record
 ---
 
+## 2023/08/19
+
+### Vocabulary 19
+
++ husk
++ pollen
++ stalk
++ leafstalk
++ bud
++ petal
++ leaflet
++ timber
++ timbre
++ laurel
++ sprout
++ germinate
++ rosette
++ photosynthesis
++ bleach
++ catalyst
++ catalysis
++ silica
++ methane
++ caustic
++ neutralize
++ pigment
++ tin
++ hydrocarbon
++ tint
++ stem
++ herb
+
 ## 2023/08/18
 
 ### Vocabulary 18
