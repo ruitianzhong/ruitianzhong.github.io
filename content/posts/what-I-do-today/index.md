@@ -7,6 +7,38 @@ categories:
 - daily-record
 ---
 
+## 2023/08/20
+
+### Vocabulary 20
+
++ vein
++ sediment
++ aluminum
++ seism
++ seismology
++ ruby
++ quartz
++ magnitude
++ porehole
++ pit
++ pitfall
++ squirt
++ emerald
++ lithosphere
++ lithogemous
++ magma
++ alchemy
++ solubility
++ sear
++ kindle
++ iodine
++ platinum
++ scorch
++ hackneyed
++ hydronic
++ ammonia
++ helium
+
 ## 2023/08/19
 
 ### Vocabulary 19
