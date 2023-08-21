@@ -7,6 +7,28 @@ categories:
 - daily-record
 ---
 
+## 2023/08/21
+
+### Vocabulary 21
+
++ lunar
++ Saturn
++ mercury
++ Venus
++ Mars
++ Jupiter
++ supernova
++ holism/holistic
++ dwarf
++ planetoid
++ stellar
++ interstellar
++ pseudoscience
++ meteor shower
++ comet
++ astrology
++ constellation
+
 ## 2023/08/20
 
 ### Vocabulary 20
