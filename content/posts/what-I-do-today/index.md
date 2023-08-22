@@ -7,6 +7,37 @@ categories:
 - daily-record
 ---
 
+## 2023/08/22
+
+### Vocabulary 22
+
++ celestial body
++ asteroid
++ cluster
++ interferometer
++ corona
++ planteau
++ contour
++ hemisphere
++ ebb
++ ledge
++ insular
++ islet
++ oasis
++ outskirt
++ cosmopolitan
++ subterrene
++ cavern
++ basin
++ salinity
++ topography
++ sistern
++ endemic
++ Arctic
++ terrestrial
++ meridian
++ crevice
+
 ## 2023/08/21
 
 ### Vocabulary 21
