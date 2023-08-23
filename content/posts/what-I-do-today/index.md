@@ -7,6 +7,38 @@ categories:
 - daily-record
 ---
 
+## 2023/08/23
+
+### Vocabulary 23
+
++ doomed
++ dogma
++ consecrate
++ creed
++ fatalism
++ doctrine
++ atheism
++ immerse
++ enchant
++ exodus
++ oracle
++ facet
++ cone
++ column
++ ellipse
++ deduction
++ polygon
++ fraction
++ inference
++ abacus
++ dispersion
++ plumb
++ intersect
++ circumference
++ circuitous
++ heresy
++ caliber
+
 ## 2023/08/22
 
 ### Vocabulary 22
@@ -26,12 +58,12 @@ categories:
 + oasis
 + outskirt
 + cosmopolitan
-+ subterrene
++ subterrane
 + cavern
 + basin
 + salinity
 + topography
-+ sistern
++ cistern
 + endemic
 + Arctic
 + terrestrial
