@@ -7,6 +7,30 @@ categories:
 - daily-record
 ---
 
+## 2023/08/24
+
+### Vocabulary 24
+
++ conjure
++ aesthetic
++ arcade
++ dadaism
++ baroge
++ membrane
++ parasite
++ vital
++ subsist
++ posterity
++ fermentation
++ metabolism
++ carbohydrate
++ glucose
++ secrete
++ morphology
++ respiration
++ assimilate
++ fresco
+
 ## 2023/08/23
 
 ### Vocabulary 23
