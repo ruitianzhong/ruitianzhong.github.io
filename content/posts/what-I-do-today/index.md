@@ -7,6 +7,39 @@ categories:
 - daily-record
 ---
 
+## 2023/08/25
+
+### Vocabulary 25
+
++ overcast
++ toment
++ overbearing
++ trying
++ fussy
++ contemptuous
++ presumptuous
++ astound
++ petrify
++ impetuous
++ disarrange
++ derange
++ lovelorn
++ nostalgia
++ cower
++ crave
++ orlorn
++ dejected
++ downcast
++ frenzy
++ haughty
++ picturesque
++ mug shot
++ preclude
++ mold
++ portrait
++ vituoso
++ embroider
+
 ## 2023/08/24
 
 ### Vocabulary 24
