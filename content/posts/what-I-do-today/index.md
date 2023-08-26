@@ -7,6 +7,33 @@ categories:
 - daily-record
 ---
 
+## 2023/08/26
+
+### Vocabulary 26
+
++ dissipate
++ bestow
++ despatch
++ extricate
++ harness
++ interplay
++ procure
++ cobble
++ prop
++ prod
++ forsake
++ contrive
++ dubious
++ profane
++ ardor
++ ardent
++ solicitous
++ abashed
++ bliss
++ grounchy
++ chafe
++ grudge
+
 ## 2023/08/25
 
 ### Vocabulary 25
