@@ -7,6 +7,30 @@ categories:
 - daily-record
 ---
 
+## 2023/08/27
+
+### Vocabulary 27
+
++ steadfast
++ stronghead
++ elusion
++ inteligible
++ elusive
++ rapacious
++ equivocal
++ scrap
++ disfigure
++ divulge
++ perplex
++ vinticate
++ ilegible
++ Entry Formalities
++ discern
++ engulf
++ disembark
++ anihilate
++ connive
+
 ## 2023/08/26
 
 ### Vocabulary 26
