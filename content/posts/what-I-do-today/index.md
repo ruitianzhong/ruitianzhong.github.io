@@ -7,6 +7,31 @@ categories:
 - daily-record
 ---
 
+## 2023/08/28
+
+### Vocabulary 28
+
++ headless
++ erroneous
++ futile
++ offhand
++ recollection
++ ruminate
++ haunt
++ blunder
++ oblivion
++ grope
++ tardy
++ retard
++ propensity
++ shackle
++ cramp
++ impetiment
++ inure
++ subdue
++ transript
++ protract
+
 ## 2023/08/27
 
 ### Vocabulary 27
