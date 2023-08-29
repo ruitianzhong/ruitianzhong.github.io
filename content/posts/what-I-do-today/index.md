@@ -7,6 +7,29 @@ categories:
 - daily-record
 ---
 
+## 2023/08/29
+
+### Vocabulary 29
+
++ unquenchable
++ surmount
++ insinuate
++ zigzag
++ stroll
++ vanquish
++ rumble
++ bequest
++ heredity
++ pamphlet
++ cram
++ quell
++ bondage
++ penchant
++ ferret
++ adjourn
++ blunt
++ rashly
+
 ## 2023/08/28
 
 ### Vocabulary 28
