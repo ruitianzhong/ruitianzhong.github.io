@@ -7,6 +7,31 @@ categories:
 - daily-record
 ---
 
+## 2023/08/30
+
+### Vocabulary 30
+
++ belittle
++ spineless
++ pitful
++ meek
++ genial
++ crooked
++ canny
++ austerity
++ composure
++ discreet
++ prudent
++ hardheaded
++ bashful
++ tractable
++ acumen
++ exquisite
++ affable
++ facile
++ courteous
++ gregarious
+
 ## 2023/08/29
 
 ### Vocabulary 29
