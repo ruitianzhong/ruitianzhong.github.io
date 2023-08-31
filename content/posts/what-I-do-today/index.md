@@ -7,6 +7,14 @@ categories:
 - daily-record
 ---
 
+## 2023/08/31
+
+### Vocabulary 31
+
++ impotence
++ tug
++ impute
+
 ## 2023/08/30
 
 ### Vocabulary 30
