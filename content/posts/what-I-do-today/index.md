@@ -7,6 +7,31 @@ categories:
 - daily-record
 ---
 
+## 2023/09/01
+
+### Vocabulary 32
+
++ permeate
++ spout
++ meander
++ influx
++ prestine
++ juncture
++ interclude
++ improvise
++ extant
++ nocturnal
++ cursory
++ forthright
++ impromptu
++ abiding
++ overdue
++ initerate
++ girdle
++ imbue
++ postulate
++ fringe
+
 ## 2023/08/31
 
 ### Vocabulary 31
