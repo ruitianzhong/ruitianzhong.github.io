@@ -7,6 +7,28 @@ categories:
 - daily-record
 ---
 
+## 2023/09/02
+
+### Vocabulary 33
+
++ gauge
++ specimen
++ doctrine
++ dissect
++ twingle
++ dingy
++ burnish
++ dusky
++ deflect
++ heterogeneous
++ homogeneous
++ impertinent
++ gleam
++ ablaze
++ intrinstically
++ abtruse
++ gush
+
 ## 2023/09/01
 
 ### Vocabulary 32
