@@ -7,6 +7,30 @@ categories:
 - daily-record
 ---
 
+## 2023/09/03
+
+### Vocabulary 34
+
++ incisive
++ inborn
++ innane
++ barley
++ rudimentry
++ broccoli
++ seasoning
++ condiment
++ spinach
++ beet
++ nibble
++ sesame
++ rye
++ edible
++ oats
++ mustard
++ cereal
++ cabbage
++ inbibe
+
 ## 2023/09/02
 
 ### Vocabulary 33
