@@ -7,6 +7,25 @@ categories:
 - daily-record
 ---
 
+## 2023/09/05
+
+### Vocabulary 35
+
++ bombastic
++ pretentious
++ disseminate
++ impart
++ vanity
++ liaison
++ conceit
++ disband
++ culpable
++ rebuke
++ reproach
++ hubbub
++ oration
++ equivocate
+
 ## 2023/09/03
 
 ### Vocabulary 34
