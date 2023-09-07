@@ -7,6 +7,25 @@ categories:
 - daily-record
 ---
 
+## 2023/09/07
+
+### Vocabulary 36
+
++ disparge
++ deride
++ slander
++ acclaim
++ cynical
++ accentuate
++ depict
++ coax
++ effuse
++ grumble
++ aspersion
++ sardronic
++ elucidate
++ expound
+
 ## 2023/09/05
 
 ### Vocabulary 35
