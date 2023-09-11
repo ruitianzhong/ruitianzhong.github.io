@@ -7,6 +7,29 @@ categories:
 - daily-record
 ---
 
+## 2023/09/08
+
+### Vocabulary 37
+
++ sojourn
++ scorch
++ desolate
++ barren
++ sterile
++ clod
++ stout
++ stodgy
++ regimen
++ slag
++ dwell
++ drowsy
++ apt
++ auspice
++ guise
++ doze
++ strap
++ beguile
+
 ## 2023/09/07
 
 ### Vocabulary 36
