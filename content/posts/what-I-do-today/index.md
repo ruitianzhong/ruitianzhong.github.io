@@ -7,7 +7,27 @@ categories:
 - daily-record
 ---
 
-## 2023/09/08
+## 2023/09/12
+
+### Vocabulary 38
+
++ surmise
++ holocaust
++ carnage
++ cataclysm
++ avalanche
++ afflict
++ lethal
++ defunct
++ smother
++ expire
++ idyllic
++ mill
++ fixture
++ footbeat
++ mishap
+
+## 2023/09/11
 
 ### Vocabulary 37
 
