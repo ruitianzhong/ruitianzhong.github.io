@@ -7,6 +7,26 @@ categories:
 - daily-record
 ---
 
+## 2023/09/13
+
+### Vocabulary 39
+
++ dingy
++ sedate
++ defile
++ unbecoming
++ fervent
++ categorical
++ exorbitant
++ unblemished
++ virtuous
++ colossal
++ commodious
++ veer
++ capacious
++ guileless
++ blemish
+
 ## 2023/09/12
 
 ### Vocabulary 38
