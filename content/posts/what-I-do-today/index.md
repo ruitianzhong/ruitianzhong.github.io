@@ -7,6 +7,22 @@ categories:
 - daily-record
 ---
 
+## 2023/09/14
+
+### Vocabulary 40
+
++ expedient
++ pertinent
++ fidelity
++ tally
++ advisable
++ caustic
++ probity
++ refined
++ sober
++ acrimony
++ infallible
+
 ## 2023/09/13
 
 ### Vocabulary 39
