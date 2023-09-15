@@ -7,6 +7,31 @@ categories:
 - daily-record
 ---
 
+## 2023/09/15
+
+### Vocabulary 41
+
++ hackneyed
++ sloppy
++ fraust
++ sporadic
++ suffuse
++ detriment
++ jeopardy
++ odor
++ hectic
++ lofty
++ crooked
++ panacea
++ superstitution
++ momentous
++ cardinal
++ ponderous
++ catholic
++ pungent
++ erratic
++ fraught
+
 ## 2023/09/14
 
 ### Vocabulary 40
