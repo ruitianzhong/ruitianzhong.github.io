@@ -7,6 +7,23 @@ categories:
 - daily-record
 ---
 
+## 2023/09/16
+
+### Vocabulary 42
+
++ perilous
++ maim
++ balmy
++ palatable
++ aroma
++ stink
++ ethereal
++ malleable
++ gratuitous
++ gist
++ gradient
++ dexterous
+
 ## 2023/09/15
 
 ### Vocabulary 41
