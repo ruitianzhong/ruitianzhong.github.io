@@ -7,6 +7,25 @@ categories:
 - daily-record
 ---
 
+## 2023/09/17
+
+### Vocabulary 43
+
++ hectic
++ drudgery
++ audition
++ congruity
++ concerted
++ supersede
++ sickle
++ shovel
++ smear
++ vault
++ flounder
++ gild
++ tub
++ officeholding
+
 ## 2023/09/16
 
 ### Vocabulary 42
@@ -23,6 +42,7 @@ categories:
 + gist
 + gradient
 + dexterous
++ rule of thumb
 
 ## 2023/09/15
 
