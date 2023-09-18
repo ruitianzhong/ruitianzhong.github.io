@@ -7,6 +7,21 @@ categories:
 - daily-record
 ---
 
+## 2023/09/18
+
+### Vocabulary 44
+
++ fraternal
++ hinge
++ congenial
++ replender
++ supplant
++ arduous
++ strentuous
++ deferential
++ plight
++ sway
+
 ## 2023/09/17
 
 ### Vocabulary 43
