@@ -7,6 +7,26 @@ categories:
 - daily-record
 ---
 
+## 2023/09/19
+
+### Vocabulary 45
+
++ sleive
++ flip
++ trudge
++ chuckle
++ jerk
++ hurl
++ hilarity
++ aura
++ sullen
++ trample
++ shove
++ dab
++ etiquette
++ bidding
++ triage
+
 ## 2023/09/18
 
 ### Vocabulary 44
