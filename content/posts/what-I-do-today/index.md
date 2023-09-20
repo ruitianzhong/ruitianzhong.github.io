@@ -7,6 +7,26 @@ categories:
 - daily-record
 ---
 
+## 2023/09/20
+
+### Vocabulary 46
+
++ stingy
++ forfeit
++ deplete
++ ebb
++ indefinite
++ deform
++ coil
++ hump
++ convex
++ engross
++ enrapture
++ intoxicate
++ charisma
++ stuffy
++ haphazard
+
 ## 2023/09/19
 
 ### Vocabulary 45
