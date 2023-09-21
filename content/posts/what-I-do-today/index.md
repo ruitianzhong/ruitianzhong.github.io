@@ -7,6 +7,23 @@ categories:
 - daily-record
 ---
 
+## 2023/09/21
+
+### Vocabulary 47
+
++ conspicuous
++ slender
++ britle
++ sneak
++ lurk
++ encompass
++ confluence
++ seclusion
++ inflate
++ entice
++ emaciate
++ flimsy
+
 ## 2023/09/20
 
 ### Vocabulary 46
