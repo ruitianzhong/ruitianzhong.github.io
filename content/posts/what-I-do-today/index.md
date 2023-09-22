@@ -7,6 +7,26 @@ categories:
 - daily-record
 ---
 
+## 2023/09/22
+
+### Vocabulary 48
+
++ rehabilitate
++ jumble
++ pacify
++ dilate
++ convene
++ muddle
++ pitful
++ haunt
++ scanty
++ mollify
++ engender
++ headway
++ transfix
++ incessant
++ incipient
+
 ## 2023/09/21
 
 ### Vocabulary 47
