@@ -7,6 +7,26 @@ categories:
 - daily-record
 ---
 
+## 2023/09/23
+
+### Vocabulary 49
+
++ snobbish
++ flighty
++ undaunted
++ austerity
++ astetic
++ strife
++ belliterent
++ lavish
++ copious
++ manifold
++ baste
++ aasail
++ abmonish
++ repel
++ valor
+
 ## 2023/09/22
 
 ### Vocabulary 48
