@@ -7,6 +7,26 @@ categories:
 - daily-record
 ---
 
+## 2023/09/24
+
+### Vocabulary 50
+
++ stamina
++ caliber
++ adept
++ stunt
++ sluggish
++ indolent
++ sanity
++ stern
++ lusty
++ prodigal
++ slug
++ feud
++ thump
++ impale
++ sheathe
+
 ## 2023/09/23
 
 ### Vocabulary 49
