@@ -7,6 +7,23 @@ categories:
 - daily-record
 ---
 
+## 2023/09/25
+
+### Vocabulary 51
+
++ renounce
++ enthrall
++ coddle
++ treason
++ modulate
++ entail
++ eschew
++ redeem
++ incite
++ avert
++ demur
++ succumb
+
 ## 2023/09/24
 
 ### Vocabulary 50
@@ -1743,7 +1760,7 @@ for i,v:= range arr{
 
 + 知道了Kernel是怎样向动态链接器传递信息的(*Auxiliary Vector*),而Dynamic Linker可以通过esp寄存器的值（由内核设置）找到到Auxiliary Vector的起始地址，而这个Auxiliary Vector会包括一些只有Kernel知道并由Kernel填写信息，比如说主程序加载的位置（**AT_BASE**）
 
-+ 看了一下musl libc的动态链接器最开始的汇编（*_dlstart*），做的事情很简单，也就是将*esp*寄存器的值和 *.DYNAMIC*段的地址作为参数传递（按照X86_64参数传递的*Calling Convention*）给 _dlstart_c函数(用C语言编写)，然后_dlstart_c开始后面的一系列操作.
++ 看了一下musl libc的动态链接器最开始的汇编（*_dlstart*），做的事情很简单，也就是将*esp*寄存器的值和 *.DYNAMIC*段的地址作为参数传递（按照X86_64参数传递的*Calling Convention*）给_dlstart_c函数(用C语言编写)，然后_dlstart_c开始后面的一系列操作.
   
 + 动态连接器一开始对自己进行重定位的过程很有意思.
   
