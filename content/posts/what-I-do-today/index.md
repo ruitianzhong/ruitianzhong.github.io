@@ -7,6 +7,25 @@ categories:
 - daily-record
 ---
 
+## 2023/09/26
+
+### Vocabulary 52
+
++ deceit
++ fraudulant
++ homicide
++ pilferage
++ blackmail
++ extort
++ belie
++ declude
++ auspicuous
++ purge
++ prune
++ readily
++ accomplice
++ decimation
+
 ## 2023/09/25
 
 ### Vocabulary 51
