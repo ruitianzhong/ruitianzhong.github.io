@@ -7,6 +7,23 @@ categories:
 - daily-record
 ---
 
+## 2023/09/27
+
+### Vocabulary 53
+
++ avid
++ disposition
++ meticulous
++ scornful
++ contemptible
++ metial
++ fatuous
++ torpid
++ intrepid
++ on steroids
++ ubiquitous
++ scrupulous
+
 ## 2023/09/26
 
 ### Vocabulary 52
