@@ -7,6 +7,21 @@ categories:
 - daily-record
 ---
 
+## 2023/09/28
+
+### Vocabulary 54
+
++ feat
++ extol
++ esteem
++ revere
++ hilarious
++ disreputable
++ grandeur
++ decorum
++ laudable
++ homage
+
 ## 2023/09/27
 
 ### Vocabulary 53
