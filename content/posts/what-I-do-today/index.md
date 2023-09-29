@@ -7,6 +7,20 @@ categories:
 - daily-record
 ---
 
+## 2023/09/29
+
+### Vocabulary 55
+
++ ignoble
++ supple
++ feeble
++ insular
++ minute
++ fateful
++ tenor
++ sloppy
++ skimpy
+
 ## 2023/09/28
 
 ### Vocabulary 54
