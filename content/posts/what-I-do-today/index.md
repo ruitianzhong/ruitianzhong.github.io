@@ -7,6 +7,23 @@ categories:
 - daily-record
 ---
 
+## 2023/09/30
+
+### Vocabulary 56
+
++ sensuous
++ elation
++ faminish
++ gorge
++ brisk
++ enrapture
++ ravish
++ suspense
++ exultant
++ fluster
++ languid
++ inquisitive
+
 ## 2023/09/29
 
 ### Vocabulary 55
