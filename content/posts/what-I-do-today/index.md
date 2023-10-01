@@ -7,6 +7,21 @@ categories:
 - daily-record
 ---
 
+## 2023/10/01
+
+### Vocabulary 57
+
++ disinterested
++ exquisite
++ utterly
++ chaste
++ bulky
++ exhale
++ howl
++ remit
++ gibe
++ incorruptible
+
 ## 2023/09/30
 
 ### Vocabulary 56
