@@ -7,6 +7,27 @@ categories:
 - daily-record
 ---
 
+## 2023/10/02
+
+### Vocabulary 58
+
++ shaft
++ snap
++ flay
++ gild
++ furrow
++ hew
++ clinch
++ efface
++ incise
++ abduct
++ rend
++ implement
++ embezzle
++ bonanza
++ flank
++ glaze
+
 ## 2023/10/01
 
 ### Vocabulary 57
