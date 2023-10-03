@@ -7,6 +7,40 @@ categories:
 - daily-record
 ---
 
+## 2023/10/03
+
+### Vocabulary 59
+
++ grease
++ petrification
++ lament
++ enclosure
++ vertebrate
++ recital
++ syllable
++ swampy
++ delectable
++ palette
++ moat
++ treasure trove
++ arid
++ compound eyes
++ prodigious
++ choppy
++ inferiority
++ pinch
++ shear
++ suspender
++ quaint
++ linen
++ pendant
++ stipend
++ cyclone
++ aboreal
++ permeable
++ dogged
++ atrophy
+
 ## 2023/10/02
 
 ### Vocabulary 58
