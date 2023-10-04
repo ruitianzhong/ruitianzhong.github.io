@@ -7,6 +7,46 @@ categories:
 - daily-record
 ---
 
+## 2023/10/04
+
+### Vocabulary 60
+
++ choir
++ anarchist
++ crow
++ emancipation
++ physiology
++ scaffolding
++ scour
++ feverishly
++ immobilize
++ chapel
++ dissenter
++ lunar eclipse
++ clam
++ proceeds
++ disposition
++ furry
++ stately
++ elixir
++ gulp
++ acordian
++ pulp
++ viscous
++ chivalry
++ pitcher
++ prototypical
++ dispense with
++ frenetic
++ gospel
++ prohibitively
++ tardiness
++ vessel
++ cacti
++ salinity
++ colloquial
++ itinerant
+
 ## 2023/10/03
 
 ### Vocabulary 59
