@@ -7,6 +7,41 @@ categories:
 - daily-record
 ---
 
+## 2023/10/05
+
+### Vocabulary 61 
+
++ consternation
++ supplant
++ ripe
++ reap
++ sequester
++ deplete
++ blanket
++ portend
++ lumber
++ pollen
++ postoperative
++ circumscribe
++ introspective
++ brawling
++ demolish
++ transmuted
++ recipe
++ shuffle the deck
++ jelly
++ light bulb
++ haunted
++ archipelago
++ amenable
++ floral
++ bark
++ disillusion
++ baboon
++ centennial
++ horde
++ stich
+
 ## 2023/10/04
 
 ### Vocabulary 60
