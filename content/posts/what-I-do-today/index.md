@@ -7,9 +7,44 @@ categories:
 - daily-record
 ---
 
+## 2023/10/06
+
+### Vocabulary 62
+
++ plow
++ dismal
++ stature
++ diversion
++ crude oil
++ assert
++ solicitor
++ miniature
++ bluff
++ rivalry
++ anesthetic
++ microcosm
++ sloth
++ crisscross
++ mingle
++ blast furnace
++ inorganic chemical
++ astute
++ earthenware
++ platitude
++ hornbill
++ escapist
++ capillary
++ tilt
++ agitation
++ frown
++ conjectural
++ broad-brimmed
++ gourmand
++ render its verdict
+
 ## 2023/10/05
 
-### Vocabulary 61 
+### Vocabulary 61
 
 + consternation
 + supplant
