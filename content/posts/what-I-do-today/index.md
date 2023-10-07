@@ -7,6 +7,40 @@ categories:
 - daily-record
 ---
 
+## 2023/10/07
+
+### Vocabulary 63
+
++ faucet
++ conifer
++ decadent
++ fir
++ prairie
++ refrigerant
++ exuberant
++ hem
++ dietectics
++ weaverbird
++ inextricably
++ pedagogic
++ rendition
++ microbe
++ pastel
++ magnentic prospecting
++ irritating
++ every now and then
++ turnpike
++ slender
++ concentric
++ extol
++ protectionist
++ patch
++ platelike
++ roam
++ seedling
++ eminence
++ plasma
+
 ## 2023/10/06
 
 ### Vocabulary 62
@@ -41,6 +75,8 @@ categories:
 + broad-brimmed
 + gourmand
 + render its verdict
++ temporal
++ populate
 
 ## 2023/10/05
 
