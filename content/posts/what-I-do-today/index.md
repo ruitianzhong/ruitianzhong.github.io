@@ -7,6 +7,37 @@ categories:
 - daily-record
 ---
 
+## 2023/10/08
+
+### Vocabulary 64
+
++ wristwatch
++ indigestion
++ ratify
++ myth
++ acronym
++ methodically
++ in accord with
++ occupant
++ draft animal
++ tableware
++ antiquity
++ sporadically
++ solitude
++ scenic
++ conclusive
++ pestilential
++ cultivate
++ strenuous
++ weed
++ hub
++ subractive
++ soothe
++ minuscule
++ wavy
++ innumberable
++ megaphone
+
 ## 2023/10/07
 
 ### Vocabulary 63
