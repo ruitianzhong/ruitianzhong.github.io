@@ -7,6 +7,41 @@ categories:
 - daily-record
 ---
 
+## 2023/10/09
+
+### Vocabulary 65
+
++ pensive
++ blush
++ symbiosis
++ fungi
++ percussion
++ patronizing
++ negligent
++ vine
++ twine
++ flamboyant
++ quiescent
++ perspiration
++ finch
++ financing
++ topographical
++ usher in
++ snoring
++ communal
++ emboss
++ barbed wire
++ stilt
++ itinerary
++ yolk
++ slumber
++ avocation
++ disperse
++ subside
++ suite
++ harmonic
++ whim
+
 ## 2023/10/08
 
 ### Vocabulary 64
