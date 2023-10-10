@@ -7,6 +7,46 @@ categories:
 - daily-record
 ---
 
+## 2023/10/10
+
+### Vocabulary 66
+
++ sinuous
++ varnish
++ wary
++ heredity
++ abrasion
++ mannerism
++ myriad
++ avant-garde
++ improviser
++ connoisseur
++ liquor
++ arthritis
++ braid
++ crosscut
++ legume
++ crayon
++ circumference
++ threadlike
++ hue
++ rampant
++ niche
++ detrimental
++ slum
++ tectonics
++ mulberry
++ popular tune
++ adornment
++ oyster
++ spontaneity
++ tadpole
++ quartz
++ catch on
++ stocky
++ gravitational force
++ effluent
+  
 ## 2023/10/09
 
 ### Vocabulary 65
