@@ -7,6 +7,39 @@ categories:
 - daily-record
 ---
 
+## 2023/10/11
+
+### Vocabulary 67
+
++ unbridgeable
++ farce
++ unrestrained
++ legging
++ heed
++ signify
++ comic
++ teem with
++ scotch
++ sustained
++ sentimental
++ rupture
++ granite
++ folly
++ inflexible
++ meager
++ inhibit
++ susceptible
++ ice sheet
++ perch
++ facsimile
++ thatch
++ venomous
++ denomination
++ ablaze
++ ambience
++ petal
++ accompaniment
+
 ## 2023/10/10
 
 ### Vocabulary 66
