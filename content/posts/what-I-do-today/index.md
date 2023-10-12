@@ -7,6 +7,43 @@ categories:
 - daily-record
 ---
 
+## 2023/10/12
+
+### Vocabulary 68
+
++ frigid
++ apportion
++ darling
++ percolate
++ refraction
++ bending
++ squirrel
++ depot
++ affectionate
++ urbane
++ compliment
++ deference
++ paraphrase
++ appreciable
++ ajar
++ civility
++ glandular
++ gauge
++ infiltrate
++ undertaking
++ renounce
++ rift
++ cider
++ corps
++ insulin
++ primordial
++ barb
++ specimen
++ veneration
++ congenital
++ layman
++ perishable
+
 ## 2023/10/11
 
 ### Vocabulary 67
