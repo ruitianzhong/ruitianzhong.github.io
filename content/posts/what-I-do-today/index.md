@@ -7,6 +7,36 @@ categories:
 - daily-record
 ---
 
+## 2023/10/13
+
+### Vocabulary 69
+
++ bolster
++ lampshade
++ mug
++ cast off
++ multitude
++ adminster
++ intravenously
++ caricature
++ discern
++ monotonous
++ roost
++ amino acid
++ culminate
++ brittle
++ taxicab
++ anomaly
++ dart
++ termite
++ skydiving
++ exhilarating
++ slavish
++ ooze
++ wrinkle
++ revitalization
++ sewerage
+
 ## 2023/10/12
 
 ### Vocabulary 68
