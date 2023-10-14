@@ -7,6 +7,52 @@ categories:
 - daily-record
 ---
 
+## 2023/10/14
+
+### Vocabulary 70
+
++ brawl
++ customarily
++ flounder
++ audition
++ knapsack
++ sack
++ outgrow
++ dilate
++ pupils
++ bang
++ drowsy
++ ham
++ penchant
++ nocturnal
++ saline
++ arduous
++ verse
++ glean
++ paramount
++ unearth
++ adjoin
++ portrayal
++ snack bar
++ wane
++ accommodating
++ creditor
++ offspring
++ laboriously
++ discourse
++ herbicide
++ proclivity
++ glassware
++ receptacle
++ enactment
++ cube
++ despoiler
++ yarn
++ dismay
++ chickpea
++ condor
++ choke
+
 ## 2023/10/13
 
 ### Vocabulary 69
