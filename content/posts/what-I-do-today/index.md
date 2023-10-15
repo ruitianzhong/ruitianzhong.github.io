@@ -7,6 +7,44 @@ categories:
 - daily-record
 ---
 
+## 2023/10/15
+
+### Vocabulary 71
+
++ Jerusalem
++ inclination
++ loathsome
++ flickering
++ ultimatum
++ ensemble
++ limestone
++ aquatic
++ extremity
++ forage
++ rehabilitation
++ hedgehog
++ rote
++ spine
++ undistorted
++ preside over
++ polygon
++ harmonica
++ doctrine
++ regimentation
++ abolitionist
++ interlock
++ exacting
++ dehydrate
++ gourmet
++ imbibe
++ attire
++ sneeze
++ codify
++ sloping
++ ambivalence
++ glaze
++ intoxication
+
 ## 2023/10/14
 
 ### Vocabulary 70
