@@ -7,6 +7,34 @@ categories:
 - daily-record
 ---
 
+## 2023/10/16
+
+### Vocabulary 72
+
++ quarry
++ saga
++ contemplate
++ garb
++ exemplary
++ audible
++ walnut
++ gems
++ saucer
++ diction
++ hatchling
++ narcotic
++ thigh
++ manure
++ dietition
++ impede
++ plump
++ formative
++ wit
++ tribal
++ alchemy
++ disintegrate
++ shy away from
+
 ## 2023/10/15
 
 ### Vocabulary 71
