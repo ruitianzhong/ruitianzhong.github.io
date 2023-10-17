@@ -7,6 +7,46 @@ categories:
 - daily-record
 ---
 
+## 2023/10/17
+
+### Vocabulary 73
+
++ elusive
++ ornamentation
++ disinterested
++ learn by rote
++ expressly
++ porous
++ wreck
++ pack animal
++ forbidding
++ burrow
++ woolly
++ counterclockwise
++ slipper
++ olfactory
++ pollinator
++ vitalist
++ squash
++ paraglider
++ kiln
++ flint
++ carapace
++ odorless
++ postage
++ jumble
++ tavern
++ utopian
++ propulsion
++ intermittent
++ rebuke
++ metabolism
++ locomote
++ scrap
++ incense
++ spinal cord
++ ore
+
 ## 2023/10/16
 
 ### Vocabulary 72
