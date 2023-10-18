@@ -7,6 +7,49 @@ categories:
 - daily-record
 ---
 
+## 2023/10/18
+
+### Vocabulary 74
+
++ scrub
++ fender
++ lucrative
++ tributary
++ receptor
++ snug
++ mesmerize
++ flavoring
++ tentacle
++ despoil
++ shipwright
++ stardom
++ subduct
++ mournful
++ iconographic
++ flora
++ utterance
++ plight
++ strata
++ chromosphere
++ enrage
++ merger
++ milieu
++ fluffy
++ symbiotic
++ trove
++ stash
++ discreet
++ mason
++ dime
++ memorandum
++ recount
++ rinse
++ torpor
++ strap the safety belt
++ shutter
++ raven
++ mural
+
 ## 2023/10/17
 
 ### Vocabulary 73
