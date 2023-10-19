@@ -7,6 +7,45 @@ categories:
 - daily-record
 ---
 
+## 2023/10/19
+
+### Vocabulary 75
+
++ assorted
++ hail
++ stellar
++ typify
++ fort
++ bust
++ contour
++ foment
++ proceeding
++ cornet
++ slothful
++ trapper
++ sloft
++ stationary
++ slash
++ blade
++ silversmith
++ brooch
++ thorn
++ whittle
++ corn
++ mimic
++ coinage
++ lateral
++ gallant
++ staple
++ melodic
++ saxophone
++ symphony
++ abound
++ seam
++ autobiography
++ rejuvenate
++ dispose of
+
 ## 2023/10/18
 
 ### Vocabulary 74
