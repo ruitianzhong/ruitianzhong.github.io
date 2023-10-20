@@ -7,6 +7,35 @@ categories:
 - daily-record
 ---
 
+## 2023/10/20
+
+### Vocabulary 76
+
++ ballonist
++ preservative
++ choreography
++ plumage
++ unravel
++ pretense
++ bequest
++ saction
++ neuron
++ balmy
++ dim
++ salient
++ convex
++ deprivation
++ dilution
++ walkout
++ ferromagnetic
++ populous
++ scaled
++ misanthropy
++ sanctimonious
++ ordinance
++ gyration
++ decimal
+
 ## 2023/10/19
 
 ### Vocabulary 75
