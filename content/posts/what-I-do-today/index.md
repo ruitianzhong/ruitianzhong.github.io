@@ -7,6 +7,42 @@ categories:
 - daily-record
 ---
 
+## 2023/10/21
+
+### Vocabulary 77
+
++ league
++ lobster
++ puddle
++ remnant
++ affluent
++ nonconformity
++ a pivotal figure
++ careerism
++ synthesize
++ contender
++ pluto
++ foghorn
++ forestall
++ unwieldly
++ artisan
++ girder
++ frugality
++ tenement
++ suspense
++ devoid
++ cast into
++ wrought iron
++ waive
++ preeminent
++ prodigy
++ trickle
++ orchard
++ spit
++ ornament
++ treacherous
++ unbridled
+
 ## 2023/10/20
 
 ### Vocabulary 76
