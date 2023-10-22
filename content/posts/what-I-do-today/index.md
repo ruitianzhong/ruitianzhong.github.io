@@ -7,6 +7,45 @@ categories:
 - daily-record
 ---
 
+## 2023/10/22
+
+### Vocabulary 78
+
++ prose
++ culinary
++ culinary
++ sap
++ sap
++ sloe
++ enclose
++ interdependence
++ urbanism
++ elicit
++ lull
++ splendor
++ starfish
++ tranquil
++ complicity
++ incisive
++ superintendent
++ greyhound
++ temperance
++ amenity
++ pane
++ pyramid
++ horned
++ weariness
++ uncharted
++ mimicry
++ eviscerate
++ dreary
++ sapphire
++ nuclei
++ conspicuously
++ octopus
++ warrantable
++ audit
+
 ## 2023/10/21
 
 ### Vocabulary 77
