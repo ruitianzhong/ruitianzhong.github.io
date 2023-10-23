@@ -7,6 +7,43 @@ categories:
 - daily-record
 ---
 
+## 2023/10/23
+
+### Vocabulary 79
+
++ pigment
++ bandmaster
++ crippling
++ stumble
++ caterpillar
++ seismology
++ tow
++ pliant
++ defrost
++ intrepid
++ pique
++ saliva
++ locomotive
++ involuntary
++ aggravating
++ convival
++ homespun
++ novice
++ excavation
++ abraisive
++ sandpaper
++ algae
++ dent
++ graphite
++ drop in
++ sundial
++ polo
++ equestrian
++ checkup
++ lustrous
++ wizard
++ infuse
+
 ## 2023/10/22
 
 ### Vocabulary 78
