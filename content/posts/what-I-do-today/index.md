@@ -7,6 +7,38 @@ categories:
 - daily-record
 ---
 
+## 2023/10/24
+
+### Vocabulary 80
+
++ parapsychology
++ serrated
++ boarder
++ mime
++ philology
++ tapeworm
++ yardstick
++ invertibrate
++ cabinet-maker
++ inclined
++ medieval
++ incapacitate
++ vegetation
++ coil
++ multiply
++ crab
++ sponge
++ dismember
++ rugged path
++ averse
++ chronology
++ indent
++ ceremonial
++ sprawl
++ exorbitant
++ sumptuous
++ vault
+
 ## 2023/10/23
 
 ### Vocabulary 79
