@@ -7,6 +7,45 @@ categories:
 - daily-record
 ---
 
+## 2023/10/25
+
+### Vocabulary 81
+
++ embroidery
++ precursor
++ epic
++ brownish
++ clan
++ strip
++ cramped
++ carving
++ an army of
++ flake
++ dispersal
++ surpassingly
++ mold
++ landmass
++ hinder
++ dues
++ paucity
++ debris
++ pasta
++ loom
++ methodology
++ ardent
++ acumen
++ skimp
++ incessant
++ infirmary
++ adjunct
++ quilter
++ indefinite
++ erratic
++ beard
++ mediate
++ feat
++ creek
+
 ## 2023/10/24
 
 ### Vocabulary 80
