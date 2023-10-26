@@ -7,6 +7,37 @@ categories:
 - daily-record
 ---
 
+## 2023/10/26
+
+### Vocabulary 82
+
++ flagella
++ osprey
++ feudal
++ treason
++ soverein
++ elongate
++ upheaval
++ turquoise
++ slab
++ epidermis
++ trilogy
++ pitch
++ zenith
++ rooster
++ hinterland
++ rattlesnake
++ bonanza
++ riducule
++ subdicipline
++ complement
++ compliment
++ stratum
++ lithosphere
++ eccentricity
++ congenial
++ sewer system
+
 ## 2023/10/25
 
 ### Vocabulary 81
