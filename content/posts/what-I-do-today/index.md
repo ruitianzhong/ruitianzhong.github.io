@@ -7,6 +7,49 @@ categories:
 - daily-record
 ---
 
+## 2023/10/27
+
+### Vocabulary 83
+
++ buggy
++ overtax
++ sparingly
++ citadel
++ jolt
++ hay
++ hurl
++ defective
++ rarefy
++ with their hand laced
++ detergent
++ foremost
++ seclude
++ cumbersome
++ accredit
++ pliable
++ overt
++ boon
++ patriarchal
++ facelift
++ ailment
++ proprietor
++ gazette
++ conglomerate
++ adobe
++ figurehead
++ venerable
++ tender
++ synonymous
++ secrete
++ enzyme
++ tally
++ forebear
++ domesticate
++ chisel
++ stout
++ crowbar
++ galvanization
+
 ## 2023/10/26
 
 ### Vocabulary 82
