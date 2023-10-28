@@ -7,6 +7,40 @@ categories:
 - daily-record
 ---
 
+## 2023/10/28
+
+### Vocabulary 84
+
++ defecate
++ plainspoken
++ renunciation
++ gush
++ cavity
++ captivity
++ cardiac
++ chaste
++ monk
++ sedentary
++ sectional view
++ laurel
++ wreath
++ proliferation
++ tract
++ outlying area
++ glazed surface of pastry
++ tapestry
++ dripstone
++ pollinate
++ shellfish
++ pumpkin
++ apartheid
++ prudent
++ weld
++ grind
++ surcharge
++ outermost
++ deciduous
+
 ## 2023/10/27
 
 ### Vocabulary 83
