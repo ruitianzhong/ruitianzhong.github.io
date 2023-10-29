@@ -7,6 +7,36 @@ categories:
 - daily-record
 ---
 
+## 2023/10/29
+
++ heavenly
++ teeth is crooked
++ formidable
++ homogenize
++ solar cell
++ etiquette
++ multistory
++ patriarch
++ ladybug
++ kennel
++ scavenger
++ liger
++ crossbreeding
++ engraving
++ incandescent
++ lodging
++ mortar
++ impartially
++ belie
++ industrious
++ treadmill
++ seismograph
++ flock to
++ fluorescent
++ juxtaposition
++ subterranean
++ pertinent
+
 ## 2023/10/28
 
 ### Vocabulary 84
