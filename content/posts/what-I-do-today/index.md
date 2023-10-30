@@ -7,7 +7,38 @@ categories:
 - daily-record
 ---
 
+## 2023/10/30
+
+### Vocabulary 86
+
++ weep
++ boardinghouse
++ emblem
++ impersonate
++ chimpanzee
++ bouquet
++ tableland
++ pathogen
++ foe
++ disagreeable
++ devise
++ negate
++ gallantry
++ urbanite
++ chamber music
++ libel
++ newscast
++ cannibalism
++ icicle
++ irritated
++ flyspeck
++ distended
++ kerosene
++ fermentation
+
 ## 2023/10/29
+
+### Vocabulary 85
 
 + heavenly
 + teeth is crooked
