@@ -7,6 +7,38 @@ categories:
 - daily-record
 ---
 
+## 2023/10/31
+
+### Vocabulary 87
+
++ chubby
++ checkout counter
++ inherent
++ preponderance
++ tinplate
++ innate
++ incongruous
++ ward off
++ enterprising
++ seduce
++ posthumous
++ rattle
++ topsoil
++ intruder
++ pry open
++ watercourse
++ sushi
++ salmon roe
++ kinetic
++ delirium
++ wholesome
++ fray
++ larynx
++ hummingbird
++ to and fro
++ potter
++ impair
+
 ## 2023/10/30
 
 ### Vocabulary 86
