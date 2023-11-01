@@ -7,6 +7,45 @@ categories:
 - daily-record
 ---
 
+## 2023/11/01
+
+### Vocabulary 88
+
++ painstaking
++ psychoanalysis
++ pauper
++ courier
++ symbology
++ irritable
++ fable
++ crimson
++ equilibrium
++ wade
++ telegraph
++ incredulity
++ heyday
++ impersonal
++ weathering
++ impending
++ suspend
++ upscale
++ pristine
++ fleeting
++ sociable
++ igneous
++ engrave
++ vigor
++ spawn
++ stickpin
++ sustenance
++ deign
++ banner
++ maverick
++ absenteeism
++ dorsal fin
++ additive
++ terrain
+
 ## 2023/10/31
 
 ### Vocabulary 87
