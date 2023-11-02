@@ -7,6 +7,44 @@ categories:
 - daily-record
 ---
 
+## 2023/11/02
+
+### Vocabulary 89
+
++ fraction
++ jolting
++ bow
++ afflict
++ dormant
++ grasshopper
++ instrumental
++ drudgery
++ viscosity
++ vent
++ igloo
++ permeate
++ overcast
++ imposing
++ announcer
++ procupine
++ concave
++ crumple
++ dissertation
++ soloist
++ torque
++ larvae
++ antiseptic
++ lineage
++ willow
++ originality
++ fungus
++ annihilate
++ luster
++ scuba
++ discerning
++ imprint
++ reverently
+
 ## 2023/11/01
 
 ### Vocabulary 88
