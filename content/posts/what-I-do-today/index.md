@@ -7,6 +7,40 @@ categories:
 - daily-record
 ---
 
+## 2023/11/03
+
+### Vocabulary 90
+
++ hazel
++ canyon
++ amble
++ chronological
++ cardinal number
++ rite
++ rustic
++ juvenile
++ stagecoach
++ zigzag
++ lethargy
++ frugal
++ juncture
++ rumble
++ exterminate
++ crockroach
++ tensile band
++ herculean
++ glacial
++ weary
++ magnesium
++ hasten
++ rubbery toy
++ rectify
++ jade bracelet
++ refurbish
++ incise
++ utensil
++ edifice
+  
 ## 2023/11/02
 
 ### Vocabulary 89
