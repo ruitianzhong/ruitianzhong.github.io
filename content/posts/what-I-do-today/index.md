@@ -7,6 +7,39 @@ categories:
 - daily-record
 ---
 
+## 2023/11/04
+
+### Vocabulary 91
+
++ genesis
++ ware
++ yelp
++ intrigue
++ deformation
++ luminosity
++ stimulant
++ ferry
++ husk
++ feeble
++ wither
++ confined to bed
++ marshy
++ seamount
++ fishing rod
++ cling
++ dash off
++ latent
++ torrent
++ lumbering
++ cast-iron
++ quail egg
++ slime
++ raze
++ aromatic
++ flabby
++ fortuitously
++ gentility
+
 ## 2023/11/03
 
 ### Vocabulary 90
