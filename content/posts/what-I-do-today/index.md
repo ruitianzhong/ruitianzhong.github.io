@@ -7,6 +7,36 @@ categories:
 - daily-record
 ---
 
+## 2023/11/05
+
+### Vocabulary 92
+
++ chateau
++ combination
++ quantum
++ membrane
++ encase
++ bloom
++ procelain
++ cellist
++ amnesia
++ bleak
++ troupe
++ resort package
++ haunted
++ lore
++ perimeter
++ assembly
++ slimy
++ glorify
++ pinpoint
++ cubism
++ elliptical
++ indented
++ maize
++ ductile
++ inflict
+
 ## 2023/11/04
 
 ### Vocabulary 91
