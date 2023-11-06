@@ -7,6 +7,42 @@ categories:
 - daily-record
 ---
 
+## 2023/11/06
+
+### Vocabulary 93
+
++ deft
++ resonance
++ impediment
++ sect
++ sweeping
++ subdue
++ keep a straight posture
++ sidestep
++ supple
++ determinant
++ adversity
++ shrivel
++ detest
++ pedagogy
++ dagger
++ charcoal
++ silicate
++ paleontologist
++ optometrist
++ assemblage
++ shrub
++ outmoded
++ aria
++ cello
++ foul
++ monochromatic
++ intricately
++ gull
++ gorilla
++ dumb
++ flair
+
 ## 2023/11/05
 
 ### Vocabulary 92
