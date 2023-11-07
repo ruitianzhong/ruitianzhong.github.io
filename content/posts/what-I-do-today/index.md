@@ -7,6 +7,40 @@ categories:
 - daily-record
 ---
 
+## 2023/11/07
+
+### Vocabulary 94
+
++ perpendicular
++ gemstone
++ foreshadow
++ provincialism
++ curator
++ protagonist
++ condiment
++ ketchup
++ succinct
++ mammoth
++ torrential
++ scruple
++ irradiate
++ encroach
++ utilitarian
++ swarm
++ potted plant
++ exalted
++ cabin
++ affliction
++ reptile
++ deity
++ blast
++ neoclassical
++ serene
++ rawhide
++ boulder
++ postcard
++ rage
+
 ## 2023/11/06
 
 ### Vocabulary 93
