@@ -7,6 +7,31 @@ categories:
 - daily-record
 ---
 
+## 2023/11/08
+
+### Vocabulary 95
+
++ discernible
++ repulse
++ animated
++ sanctuary
++ pineapple
++ retrospective
++ parasitic
++ carbonhydrate
++ subsisted
++ penal
++ wring out the cloth
++ stamina
++ litter
++ seismic
++ Baroque
++ continuum
++ expel
++ charitable
++ embryo
++ aquamarine
+
 ## 2023/11/07
 
 ### Vocabulary 94
