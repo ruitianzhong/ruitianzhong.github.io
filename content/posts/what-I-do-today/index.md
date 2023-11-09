@@ -7,6 +7,39 @@ categories:
 - daily-record
 ---
 
+## 2023/11/09
+
+### Vocabulary 96
+
++ fumigate
++ aloof
++ tap
++ vicinity
++ escalator
++ made an appropration
++ vowel
++ recompose
++ veining
++ gilding
++ replenish
++ pebble
++ impermeable
++ condensation
++ illusive
++ upland
++ alder
++ adept
++ chilli
++ motif
++ backdrop
++ horn
++ brisk
++ dissimilar
++ eventful
++ melodious
++ propensity
++ aversion
+
 ## 2023/11/08
 
 ### Vocabulary 95
