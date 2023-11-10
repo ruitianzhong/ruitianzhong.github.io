@@ -7,6 +7,36 @@ categories:
 - daily-record
 ---
 
+## 2023/11/10
+
+### Vocabulary 97
+
++ tapering
++ pore
++ thousandfold
++ courtly
++ arithmetic
++ subdivision
++ cubic function
++ avid
++ attain
++ graze
++ smog
++ sunlit
++ stroke
++ gibe
++ reclamation
++ retentive
++ frisky kitten
++ floodplain
++ pamphelet
++ voracious
++ assortment
++ hustle
++ burgeon
++ postulate
++ gaseous
+
 ## 2023/11/09
 
 ### Vocabulary 96
