@@ -7,6 +7,43 @@ categories:
 - daily-record
 ---
 
+## 2023/11/11
+
+### Vocabulary 98
+
++ creep
++ bandanna
++ endotherm
++ crumble
++ nonhuman primate
++ blacksmith
++ sarcastic
++ rayon
++ sea cucumber
++ lethargic
++ preoccupation
++ stagnant
++ speck
++ quadrilateral
++ stern expression
++ plank
++ crude ore
++ pine tree
++ translucent
++ improvisation
++ proofread
++ stimuli
++ barge
++ sheath
++ quarter
++ conjecture
++ mercantile
++ beaded
++ camouflage
++ sit sideways
++ bland
++ herald
+
 ## 2023/11/10
 
 ### Vocabulary 97
