@@ -7,6 +7,36 @@ categories:
 - daily-record
 ---
 
+## 2023/11/12
+
+### Vocabulary 99
+
++ melodrama
++ canopy
++ terrestrial
++ diagonally
++ inundate
++ polygonal
++ notch
++ peck
++ aurora
++ acclaimed
++ concerto
++ tortuous
++ glaciated
++ conversant
++ succumb
++ excavate
++ masonry
++ prolific
++ mania
++ assimilate
++ terminus
++ waste disposal
++ contraction
++ neon
++ handicraft
+
 ## 2023/11/11
 
 ### Vocabulary 98
