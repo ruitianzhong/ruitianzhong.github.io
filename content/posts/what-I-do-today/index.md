@@ -7,6 +7,40 @@ categories:
 - daily-record
 ---
 
+## 2023/11/13
+
+### Vocabulary 100
+
++ wed
++ tundra
++ spangle
++ cadence
++ waging a rebellion
++ hoe
++ haphazard
++ wedge-shaped
++ illegible
++ baptisim
++ barrel
++ grumble
++ prospector
++ insanity
++ complementary
++ crossbone
++ prod
++ living quarters
++ entanglement
++ fauna
++ handicap
++ syrup
++ fixture
++ bandleader
++ ragtime
++ sloop
++ stipulation
++ screw the lid
++ trespass
+
 ## 2023/11/12
 
 ### Vocabulary 99
