@@ -7,6 +7,41 @@ categories:
 - daily-record
 ---
 
+## 2023/11/14
+
+### Vocabulary 101
+
++ grandeur
++ swamp
++ genial
++ alloy
++ percitipation
++ frivolity
++ kingkong
++ analogous
++ consonant
++ sow
++ nonconformist
++ in distress
++ counteract
++ carnivorous
++ eloquent
++ distort
++ commissioned to do
++ volatile
++ pole repel
++ lodge
++ embryonic
++ meteorite
++ attainment
++ embellish
++ labyrinth
++ lithograph
++ paddler
++ snowdrift
++ substantiate
++ venom
+
 ## 2023/11/13
 
 ### Vocabulary 100
