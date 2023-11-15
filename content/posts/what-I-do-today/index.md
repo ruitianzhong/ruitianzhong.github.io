@@ -7,6 +7,46 @@ categories:
 - daily-record
 ---
 
+## 2023/11/15
+
+### Vocabulary 102
+
++ credence
++ quench
++ tenderness
++ graft
++ puncture
++ lethal
++ corn starch
++ slip one's mind
++ steadfast
++ perennial
++ yawn
++ reimburse
++ perpetuate
++ plaster
++ carat
++ pocketbook
++ plainly
++ trainload
++ tactile
++ stunt
++ screwdriver
++ equilateral triangle
++ armory
++ retool
++ ascrible
++ abut
++ scarecrow
++ aggravate
++ hatchet
++ venturesome
++ towering
++ intrinsic
++ one strand of row
++ vomit / common complication
++ majesty
+
 ## 2023/11/14
 
 ### Vocabulary 101
