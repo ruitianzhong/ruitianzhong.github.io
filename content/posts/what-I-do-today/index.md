@@ -7,6 +7,40 @@ categories:
 - daily-record
 ---
 
+## 2023/11/16
+
+### Vocabulary 103
+
++ atheist
++ aquarium
++ clog
++ radical clean
++ hatchery
++ smelting
++ combustion
++ crustacean
++ menace
++ potent
++ coalescence
++ custodian
++ precarious
++ hump
++ sprout
++ pronghorn
++ disrepute
++ appraisal
++ courtship
++ nomadic
++ solder
++ fanaticism
++ ravine
++ crevice
++ overtire
++ fend for oneself
++ shaft
++ strenuously
++ mainspring
+
 ## 2023/11/15
 
 ### Vocabulary 102
