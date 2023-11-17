@@ -7,6 +7,38 @@ categories:
 - daily-record
 ---
 
+## 2023/11/17
+
+### Vocabulary 104
+
++ stipulate
++ infusion
++ jubilant
++ combustible
++ vaulted doorway
++ theist
++ repertory
++ emancipate
++ scarlet
++ dispense
++ portraiture
++ incongruity
++ wear away
++ pierce
++ entrenched position
++ hilly
++ photosynthesis
++ spanking
++ flashy hotel
++ fanatical
++ tint
++ infest
++ antedate
++ obliterate
++ auger
++ stanza
++ fortress
+
 ## 2023/11/16
 
 ### Vocabulary 103
