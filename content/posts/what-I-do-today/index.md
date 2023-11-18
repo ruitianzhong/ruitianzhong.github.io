@@ -7,6 +7,40 @@ categories:
 - daily-record
 ---
 
+## 2023/11/18
+
+### Vocabulary 105
+
++ lifesaver
++ brochure
++ advent
++ finesse
++ confide
++ stylized
++ sluggish
++ primal instinct
++ grazing land
++ topography
++ clutch
++ telecommuter
++ facade
++ field research
++ semi-molten
++ charging outlet
++ colonel
++ sensibility
++ impesonation
++ flare
++ chagrin
++ demolition
++ jellyfish
++ oratorio
++ cowhand
++ spinach
++ softwood
++ vie
++ squarely
+
 ## 2023/11/17
 
 ### Vocabulary 104
