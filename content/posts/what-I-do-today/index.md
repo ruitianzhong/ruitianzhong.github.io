@@ -7,6 +7,42 @@ categories:
 - daily-record
 ---
 
+## 2023/11/19
+
+### Vocabulary 106
+
++ stiffen
++ gel
++ mortal
++ precipitous
++ postdate
++ estate
++ thorny
++ antibiotic
++ tumble
++ trumpeter
++ wasp
++ sting
++ hovercraft
++ concerted effort
++ oxen
++ scrape
++ rubble
++ twig
++ glossy
++ soundproof earmuff
++ landslide
++ anesthesia
++ brook
++ pronounced scar
++ vestige
++ ford
++ lash
++ cyclone
++ uproot
++ photosensitive
++ ink stain
+
 ## 2023/11/18
 
 ### Vocabulary 105
