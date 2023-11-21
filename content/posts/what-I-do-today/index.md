@@ -7,6 +7,21 @@ categories:
 - daily-record
 ---
 
+## 2023/11/21
+
+### Vocabulary 107
+
++ festive atmosphere
++ gnaw
++ reed
++ gravitational pull
++ stark clean
++ subversive
++ abiding
++ saddle
++ antiquated
++ laborer
+
 ## 2023/11/19
 
 ### Vocabulary 106
