@@ -101,5 +101,5 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-I am a student at the Xidian University. My interests includes operating system, virtualization, bug finding and distributed system.
+I am a student at the Xidian University. My interests include operating system, virtualization, bug finding and distributed system.
 {style="text-align: justify;"}
