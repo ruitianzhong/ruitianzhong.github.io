@@ -18,7 +18,7 @@ authors:
 categories:
   - Linux
 ---
-
+{{% toc %}}
 
 ## 概览
 
@@ -283,7 +283,9 @@ hello world
 打开两个terminal，在其中一个terminal运行下面的程序（该程序假定另外一个terminal的tty为/dev/pts/3，可以根据实际情况修改源代码，比如说改成/dev/pts2 ）,当在另外一个窗口按下Ctrl+C的时候，运行程序的窗口的SIGINT信号处理函数就会打印`receive SIGINT`,退出。
 
 这个程序也验证了terminal不会向不属于前台进程组的进程发送信号。
-
+{{% callout warning %}}
+需要以root用户的身份运行
+{{% /callout %}}
 
 ```c 
 #include <fcntl.h>
