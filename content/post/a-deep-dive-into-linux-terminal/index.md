@@ -387,6 +387,154 @@ int main() {
 }
 ```
 
+## TTY Subsystem
+
+### Important Kernel Source (in my opinion)
+
+* [drivers/tty/vt/keyboard.c#L557](https://elixir.bootlin.com/linux/v6.7.2/source/drivers/tty/vt/keyboard.c#L557)
+* [drivers/tty/vt/keyboard.c:kbd_keycode()](https://elixir.bootlin.com/linux/v6.7.2/source/drivers/tty/vt/keyboard.c#L1524)
+* [drivers/tty/vt/keyboard.c:put_queue](https://elixir.bootlin.com/linux/v6.7.2/source/drivers/tty/vt/keyboard.c#L325)
+* [drivers/tty/vt/keyboard.c:fn_send_intr](https://elixir.bootlin.com/linux/v6.7.2/source/drivers/tty/vt/keyboard.c#L591)
+* [kbd_event()](https://elixir.bootlin.com/linux/v6.7.2/source/drivers/tty/vt/keyboard.c#L1533)
+* [register kbd_event()](https://elixir.bootlin.com/linux/v6.7.2/source/drivers/tty/vt/keyboard.c#L1644)
+* [tty_buffer.c](https://elixir.bootlin.com/linux/v6.7.2/source/drivers/tty/tty_buffer.c#L435)
+
+Snippet from [drivers/tty/vt/keyboard.c](https://elixir.bootlin.com/linux/v6.7.2/source/drivers/tty/vt/keyboard.c)
+
+```c
+static struct input_handler kbd_handler = {
+	.event		= kbd_event,
+	.match		= kbd_match,
+	.connect	= kbd_connect,
+	.disconnect	= kbd_disconnect,
+	.start		= kbd_start,
+	.name		= "kbd",
+	.id_table	= kbd_ids,
+};
+
+int __init kbd_init(void)
+{
+	int i;
+	int error;
+
+	for (i = 0; i < MAX_NR_CONSOLES; i++) {
+		kbd_table[i].ledflagstate = kbd_defleds();
+		kbd_table[i].default_ledflagstate = kbd_defleds();
+		kbd_table[i].ledmode = LED_SHOW_FLAGS;
+		kbd_table[i].lockstate = KBD_DEFLOCK;
+		kbd_table[i].slockstate = 0;
+		kbd_table[i].modeflags = KBD_DEFMODE;
+		kbd_table[i].kbdmode = default_utf8 ? VC_UNICODE : VC_XLATE;
+	}
+
+	kbd_init_leds();
+
+	error = input_register_handler(&kbd_handler);
+	if (error)
+		return error;
+
+	tasklet_enable(&keyboard_tasklet);
+	tasklet_schedule(&keyboard_tasklet);
+
+	return 0;
+}
+// omit code here
+static void put_queue(struct vc_data *vc, int ch)
+{
+	tty_insert_flip_char(&vc->port, ch, 0);
+	tty_flip_buffer_push(&vc->port);
+}
+
+static void puts_queue(struct vc_data *vc, const char *cp)
+{
+	tty_insert_flip_string(&vc->port, cp, strlen(cp));
+	tty_flip_buffer_push(&vc->port);
+}
+```
+
+[tty_buffer.c](https://elixir.bootlin.com/linux/v6.7.2/source/drivers/tty/tty_buffer.c#L518)
+
+```c
+/**
+ * tty_flip_buffer_push		-	push terminal buffers
+ * @port: tty port to push
+ *
+ * Queue a push of the terminal flip buffers to the line discipline. Can be
+ * called from IRQ/atomic context.
+ *
+ * In the event of the queue being busy for flipping the work will be held off
+ * and retried later.
+ */
+void tty_flip_buffer_push(struct tty_port *port)
+{
+	struct tty_bufhead *buf = &port->buf;
+
+	tty_flip_buffer_commit(buf->tail);
+	queue_work(system_unbound_wq, &buf->work);
+}
+
+// omit code here
+
+/**
+ * flush_to_ldisc		-	flush data from buffer to ldisc
+ * @work: tty structure passed from work queue.
+ *
+ * This routine is called out of the software interrupt to flush data from the
+ * buffer chain to the line discipline.
+ *
+ * The receive_buf() method is single threaded for each tty instance.
+ *
+ * Locking: takes buffer lock to ensure single-threaded flip buffer 'consumer'.
+ */
+static void flush_to_ldisc(struct work_struct *work)
+{
+	struct tty_port *port = container_of(work, struct tty_port, buf.work);
+	struct tty_bufhead *buf = &port->buf;
+
+	mutex_lock(&buf->lock);
+
+	while (1) {
+		struct tty_buffer *head = buf->head;
+		struct tty_buffer *next;
+		size_t count, rcvd;
+
+		/* Ldisc or user is trying to gain exclusive access */
+		if (atomic_read(&buf->priority))
+			break;
+
+		/* paired w/ release in __tty_buffer_request_room();
+		 * ensures commit value read is not stale if the head
+		 * is advancing to the next buffer
+		 */
+		next = smp_load_acquire(&head->next);
+		/* paired w/ release in __tty_buffer_request_room() or in
+		 * tty_buffer_flush(); ensures we see the committed buffer data
+		 */
+		count = smp_load_acquire(&head->commit) - head->read;
+		if (!count) {
+			if (next == NULL)
+				break;
+			buf->head = next;
+			tty_buffer_free(port, head);
+			continue;
+		}
+
+		rcvd = receive_buf(port, head, count);
+		head->read += rcvd;
+		if (rcvd < count)
+			lookahead_bufs(port, head);
+		if (!rcvd)
+			break;
+
+		if (need_resched())
+			cond_resched();
+	}
+
+	mutex_unlock(&buf->lock);
+
+}
+```
+
 ## Discussion
 
 还是有一些地方没有了解得太清楚：
@@ -404,3 +552,7 @@ int main() {
 * [tcsetpgrp(3)](https://www.man7.org/linux/man-pages/man3/tcsetpgrp.3.html)
 * [pts(4)](https://www.man7.org/linux/man-pages/man4/pts.4.html)
 * [What is the purpose of the controlling terminal?](https://unix.stackexchange.com/questions/404555/what-is-the-purpose-of-the-controlling-terminal#:~:text=With%20controlling%20terminal%2C%20process%20is%20able%20to%20tell,e.g.%2C%20Ctrl-C%2FCtrl-%26%5D%20to%20terminate%20the%20foreground%20process%20group.)
+* [The TTY demystified](https://www.linusakesson.net/programming/tty/index.php)
+* [TTY Drivers, Linux Device Drivers, Third Edition](https://lwn.net/images/pdf/LDD3/ch18.pdf)
+* [How does a keyboard press get processed in the Linux Kernel?](https://unix.stackexchange.com/questions/545274/how-does-a-keyboard-press-get-processed-in-the-linux-kernel)
+* [一文彻底讲清Linux tty子系统架构及编程实例](https://blog.csdn.net/liangzc1124/article/details/127469767)
