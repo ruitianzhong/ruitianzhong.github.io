@@ -398,6 +398,8 @@ int main() {
 * [kbd_event()](https://elixir.bootlin.com/linux/v6.7.2/source/drivers/tty/vt/keyboard.c#L1533)
 * [register kbd_event()](https://elixir.bootlin.com/linux/v6.7.2/source/drivers/tty/vt/keyboard.c#L1644)
 * [tty_buffer.c](https://elixir.bootlin.com/linux/v6.7.2/source/drivers/tty/tty_buffer.c#L435)
+* [isig() in n_tty.c](https://elixir.bootlin.com/linux/v6.7.2/source/drivers/tty/n_tty.c#L1090)
+* [An example of keyboard driver](https://elixir.bootlin.com/linux/v6.7.2/source/drivers/input/keyboard/nspire-keypad.c)
 
 Snippet from [drivers/tty/vt/keyboard.c](https://elixir.bootlin.com/linux/v6.7.2/source/drivers/tty/vt/keyboard.c)
 
@@ -533,6 +535,49 @@ static void flush_to_ldisc(struct work_struct *work)
 	mutex_unlock(&buf->lock);
 
 }
+```
+
+* [isig() in n_tty.c](https://elixir.bootlin.com/linux/v6.7.2/source/drivers/tty/n_tty.c#L1090)
+
+```c
+static void __isig(int sig, struct tty_struct *tty)
+{
+	struct pid *tty_pgrp = tty_get_pgrp(tty);
+	if (tty_pgrp) {
+		kill_pgrp(tty_pgrp, sig, 1);
+		put_pid(tty_pgrp);
+	}
+}
+
+static void
+n_tty_receive_signal_char(struct tty_struct *tty, int signal, u8 c)
+{
+	isig(signal, tty);
+	if (I_IXON(tty))
+		start_tty(tty);
+	if (L_ECHO(tty)) {
+		echo_char(c, tty);
+		commit_echoes(tty);
+	} else
+		process_echoes(tty);
+}
+```
+
+[n_tty_receive_char_special()](https://elixir.bootlin.com/linux/v6.7.2/source/drivers/tty/n_tty.c#L1362)
+
+```c
+if (L_ISIG(tty)) {
+		if (c == INTR_CHAR(tty)) {
+			n_tty_receive_signal_char(tty, SIGINT, c);
+			return;
+		} else if (c == QUIT_CHAR(tty)) {
+			n_tty_receive_signal_char(tty, SIGQUIT, c);
+			return;
+		} else if (c == SUSP_CHAR(tty)) {
+			n_tty_receive_signal_char(tty, SIGTSTP, c);
+			return;
+		}
+	}
 ```
 
 ## Discussion
