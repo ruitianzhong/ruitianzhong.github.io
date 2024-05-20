@@ -1,5 +1,5 @@
 ---
-title: "xDB: A relational DBMS based on persistant key-value storage"
+title: "xDB: A relational DBMS based on persistent key-value storage"
 summary: A RDBMS based on RocksDB
 tags:
   - Compiler
