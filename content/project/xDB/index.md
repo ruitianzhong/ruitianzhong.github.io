@@ -1,15 +1,16 @@
 ---
-title: Bus Driver Management System
-summary: Final project of database course at Xidian University
+title: "xDB: A relational DBMS based on persistant key-value storage"
+summary: A RDBMS based on RocksDB
 tags:
-  - Web Application
-date: '2024-01-06T00:00:00Z'
+  - Compiler
+  - Database
+date: '2024-05-19T13:53:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
 
 links:
-url_code: 'https://github.com/ruitianzhong/dmbe'
+url_code: 'https://github.com/ruitianzhong/xDB'
 url_pdf: ''
 url_slides: ''
 url_video: ''
@@ -22,4 +23,4 @@ url_video: ''
 # slides: example
 ---
 
-`TBD`
+xDB will be open-sourced in July, 2024.

@@ -1,16 +1,11 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
+title: "Ruitian Zhong's Homepage"
 date: 2022-10-24
 type: landing
 
 sections:
-  - block: about.biography
-    id: about
-    content:
-      title: Biography
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
+
   # - block: skills
   #   content:
   #     title: Skills
@@ -99,7 +94,7 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Recent Posts
+      title: ''
       subtitle: ''
       text: ''
       # Choose how many pages you would like to display (0 = all pages)
@@ -142,6 +137,8 @@ sections:
           tag: '*'
         - name: Web Application
           tag: Web Application
+        - name: Database
+          tag: Database 
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
@@ -196,6 +193,12 @@ sections:
   #     title: Popular Topics
   #   design:
   #     columns: '2'
+  - block: about.biography
+    id: about
+    content:
+      title: Biography
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      username: admin
   - block: contact
     id: contact
     content:
