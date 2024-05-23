@@ -22,9 +22,9 @@ marketing:
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: ''
-    baidu_tongji: ''
+    baidu_tongji: '7d315acb640b8f0bef7fe5779a7fc304'
     google_tag_manager: ''
-    microsoft_clarity: ''
+    microsoft_clarity: 'mgcdgcuufr'
   verification:
     google: ''
     baidu: ''
