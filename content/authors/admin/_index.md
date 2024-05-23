@@ -107,9 +107,12 @@ I have did several projects, including [dmbe](https://github.com/ruitianzhong/dm
 
 
 
-I have finished several lab assignments to get my hands dirty in certain area of computer science, e.g., [xv6](https://github.com/ruitianzhong/6.5840-golabs-2023) on opearating system, [6.5840](https://github.com/ruitianzhong/6.5840-golabs-2023) on distributed system, [Tai-e](https://github.com/ruitianzhong/Tai-e-assignments) on static program analysis.
+I have finished several lab assignments to get my hands dirty in certain area of computer science, e.g., [xv6](https://github.com/ruitianzhong/6.5840-golabs-2023) on **opearating system**, [6.5840](https://github.com/ruitianzhong/6.5840-golabs-2023) on **distributed system**, [Tai-e](https://github.com/ruitianzhong/Tai-e-assignments) on **static program analysis**.
 
-I am also a contributor to [ecapture](https://github.com/gojue/ecapture) (8k+ stars in GitHub), a open source tools capturing SSL/TLS plaintext without a CA certificate using eBPF. And I have found and fix several non-trivial bugs including [lost shell command(PR #510)](https://github.com/gojue/ecapture/pull/510) and [tricky concurrency bug(PR #501)](https://github.com/gojue/ecapture/pull/501).
+I am also a contributor to [ecapture](https://github.com/gojue/ecapture) (8k+ stars in GitHub), an open source tools capturing SSL/TLS plaintext without a CA certificate using eBPF. And I have found and fixed several non-trivial bugs including [lost shell command(PR #510)](https://github.com/gojue/ecapture/pull/510) and [tricky concurrency bug(PR #501)](https://github.com/gojue/ecapture/pull/501).
+
+PL: Go > Java = C/C++ > > JavaScript (Vue.js) > Rust = Bash = Python = Dart
+
 
 
 <!-- {style="text-align: justify;"} -->
