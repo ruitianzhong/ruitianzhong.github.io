@@ -1,7 +1,7 @@
 ---
 title: "July 31 2023 @ Hong Kong"
 
-summary: "Vitoria Harbour"
+summary: "Victoria Harbour"
 
 date: 2023-07-31T23:13:00+08:00
 
