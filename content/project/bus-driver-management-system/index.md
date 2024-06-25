@@ -13,13 +13,13 @@ url_code: 'https://github.com/ruitianzhong/dmbe'
 url_pdf: ''
 url_slides: ''
 url_video: ''
-
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-# slides: example
 ---
 
-`TBD`
+Driver Management Front End([dmfe](https://github.com/ruitianzhong/dmfe)) and Driver Management Back End([dmbe](https://github.com/ruitianzhong/dmbe)) are the front end and back end for the bus driver management system respectively, which is the final project for *Database System* (Fall 2023) in Xidian University.
+
+## Demo
+
+![](./images/homepage.png)
+![](./images/data-visualization.png)
+![](./images/table.png)
+

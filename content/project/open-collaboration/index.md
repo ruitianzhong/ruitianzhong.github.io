@@ -14,12 +14,40 @@ url_pdf: ''
 url_slides: ''
 url_video: ''
 
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
-# slides: example
 ---
 
-`TBD`
+## Introduction
+
+Open Collaboration(协创云 in Chinese) is a web platform that supports online communication, Markdown editing & reading, translation and file storage.
+
+This is the group project for Software Engineering(软件工程) of Xidian University(Spring 2024).
+
+Our group includes Ruitian Zhong, Haoran Xu, Jiahao Li and Wenzhuo Li.
+
+To deploy the server and front end, see the following sections.
+
+If you have any problem, feel free to contact me!
+
+## Demo
+
+### Homepage
+
+![](./images/homepage.png)
+
+### Docs 
+
+![](./images/docs-editing.png)
+![](./images/docs-list.png)
+![](./images/docs-reading.png)
+
+### Chat
+
+![](./images/chat.png)
+
+### Login
+
+![](./images/login.png)
+
+### File Storage
+
+![](./images/file-list.png)
