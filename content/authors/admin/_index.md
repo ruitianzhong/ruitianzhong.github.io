@@ -103,7 +103,7 @@ highlight_name: true
 ---
 I am a student at the Xidian University. My interests include operating system, bug finding and distributed system.
 
-I have did several projects, including [dmbe](https://github.com/ruitianzhong/dmbe) & [dmfe](https://github.com/ruitianzhong/dmfe) which is a application built with Go Gorilla and Vue.js with separated front end and backend server intended for bus driver management, [open-collaboration (available in July)](https://github.com/ruitianzhong/open-collaboration) featuring team communication, `markdown` documentation editing & viewing, online translation and online file sharing, [xDB (available in July)](https://github.com/ruitianzhong/xDB) which is a relational DBMS built upon RocksDB using `C++` & `flex` & `bison`.
+I have did several projects, including [dmbe](https://github.com/ruitianzhong/dmbe) & [dmfe](https://github.com/ruitianzhong/dmfe) which is a application built with Go Gorilla and Vue.js with separated front end and backend server intended for bus driver management, [open-collaboration](https://github.com/ruitianzhong/open-collaboration) featuring team communication, `markdown` documentation editing & viewing, online translation and online file sharing, [xDB](https://github.com/ruitianzhong/xDB) which is a relational DBMS built upon RocksDB using `C++` & `flex` & `bison`.
 
 
 

@@ -23,26 +23,7 @@ url_video: ''
 # slides: example
 ---
 
-xDB will be open-sourced after the conclusion of the compiler course in July, 2024.
-
-<!-- ![](./images/1.png)
-![](./images/2.png)
-![](./images/3.png)
-![](./images/4.png)
-![](./images/5.png)
-![](./images/6.png)
-![](./images/7.png)
-![](./images/8.png)
-![](./images/9.png) -->
-![](./images/10.png)
-<!-- ![](./images/11.png)
-![](./images/12.png)
-![](./images/13.png)
-![](./images/14.png)
-![](./images/15.png)
-![](./images/16.png)
-![](./images/17.png)
-![](./images/18.png) -->
+[GitHub link](https://github.com/ruitianzhong/xDB)
 
 xDB is a relational DBMS built upon persistent key-value storag written by [Ruitian Zhong](https://zrt.ink).
 
@@ -75,3 +56,25 @@ SELECT * from user where id=(1+2*2+(id=id)+id^id+id) AND id = id%2 AND id IS NOT
 select * from t1  where id is not null;
 DROP TABLE user;
 ```
+
+
+## Demo
+
+![](./images/1.png)
+![](./images/2.png)
+![](./images/3.png)
+![](./images/4.png)
+![](./images/5.png)
+![](./images/6.png)
+![](./images/7.png)
+![](./images/8.png)
+![](./images/9.png)
+![](./images/10.png)
+![](./images/11.png)
+![](./images/12.png)
+![](./images/13.png)
+![](./images/14.png)
+![](./images/15.png)
+![](./images/16.png)
+![](./images/17.png)
+![](./images/18.png)
