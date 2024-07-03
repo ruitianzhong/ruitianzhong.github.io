@@ -28,3 +28,23 @@ authors:
 categories:
 - daily-record
 ---
+
+### 7.2
+
++ Read [Convolutional Neural Networks (CNNs / ConvNets)](https://cs231n.github.io/convolutional-networks/)
+  
+### 7.1
+
++ Read [Attention? Attention!](https://lilianweng.github.io/posts/2018-06-24-attention/)
++ Read [Derivatives, Backpropagation, and Vectorization](https://cs231n.stanford.edu/handouts/derivatives.pdf)
+
+### 6.30
+
++ Read [Understanding LSTM Networks](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
++ Read [Back Propagation](http://cs231n.github.io/optimization-2)
+
+### 6.29
+
++ Read [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
++ Read [The Illustrated BERT](https://jalammar.github.io/illustrated-bert/)
++ Read [Visual and Interactive Guide to the Basics of Neural Networks ](https://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)
