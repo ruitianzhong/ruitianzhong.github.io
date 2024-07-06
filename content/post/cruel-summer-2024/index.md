@@ -29,6 +29,15 @@ categories:
 - daily-record
 ---
 
+### 7.5
+
++ Finish [static linker lab](https://github.com/ruitianzhong/linker)
+
+
+### 7.4 
+
++ Interview...
+
 ### 7.2
 
 + Read [Convolutional Neural Networks (CNNs / ConvNets)](https://cs231n.github.io/convolutional-networks/)
