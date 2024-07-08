@@ -29,6 +29,15 @@ categories:
 - daily-record
 ---
 
+### 7.8
+
++ Read [Classification](https://cs231n.github.io/classification/)
++ Read [Linear Classification](https://cs231n.github.io/linear-classify/)
+
+### 7.6-7.7
+
++ Finish [dynamic linker lab](https://github.com/ruitianzhong/dynamic-linker)
+
 ### 7.5
 
 + Finish [static linker lab](https://github.com/ruitianzhong/linker)
