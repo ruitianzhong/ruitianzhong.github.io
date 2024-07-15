@@ -29,6 +29,12 @@ categories:
 - daily-record
 ---
 
+
+### 7.11-7.15
+
++ Interview...
++ Review Linear Algebra & Probability & Advanced Mathematic
+
 ### 7.8
 
 + Read [Classification](https://cs231n.github.io/classification/)
