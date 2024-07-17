@@ -1,7 +1,7 @@
 ---
-title: "July 11-15, 2024 Summer Camp @ SYSU, Guangzhou"
+title: "July 11-15, 2024 Summer School @ SYSU, Guangzhou"
 
-summary: "Summer camp @ Sun Yat-sen University"
+summary: "Summer school @ Sun Yat-sen University"
 
 date: 2024-07-15T21:05:00+08:00
 

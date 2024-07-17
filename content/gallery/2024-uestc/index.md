@@ -1,7 +1,7 @@
 ---
-title: "July 2-4, 2024 Summer Camp @ UESTC, Chengdu"
+title: "July 2-4, 2024 Summer School @ UESTC, Chengdu"
 
-summary: "Summer camp @ UESTC"
+summary: "Summer school @ UESTC"
 
 date: 2024-07-09T23:56:00+08:00
 

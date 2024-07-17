@@ -29,6 +29,20 @@ categories:
 - daily-record
 ---
 
+### 7.17
+
++ Read [Generative Model(Autoregressive Model & VAE & GAN)](https://cs231n.stanford.edu/slides/2024/lecture_13.pdf)
++ Read [RNN](https://cs231n.stanford.edu/slides/2024/lecture_7.pdf)
+
+
+### 7.16
+
++ Read [Transfer Learning, Batch Normalization,Case Study on AlexNet, VGG, GoogleNet and ResNet](https://cs231n.stanford.edu/slides/2024/lecture_6_part_1.pdf)
++ Read [Why Momentum Really Works](https://distill.pub/2017/momentum/)
++ Read [How to apply for CVE](https://blog.csdn.net/m0_43397796/article/details/130985872)
++ Read [Training in Practice](https://cs231n.stanford.edu/slides/2024/lecture_6_part_2.pdf)
++ Read [Object Detection and Semantic Segmantation](https://cs231n.stanford.edu/slides/2024/lecture_9.pdf)
++ Why 'zero centered ' is better?
 
 ### 7.11-7.15
 
