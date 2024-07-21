@@ -29,6 +29,33 @@ categories:
 - daily-record
 ---
 
+### 7.21
+
++ Read [Distributed Training](https://openmlsys.github.io/chapter_distributed_training/index.html) (Pipeline Parallelisim，Model Parallelism，Parameter Server，Collective Communication)
++ Read [Programming Interface](https://openmlsys.github.io/chapter_programming_interface/index.html) (Python & C++)
++ Read [Computation Graph](https://openmlsys.github.io/chapter_computational_graph/index.html) in ML framework
+
+> 一类是学习率不受梯度影响的随机梯度下降（Stochastic Gradient Descent）及SGD的一些改进方法，如带有Momentum的SGD；另一类是自适应学习率如AdaGrad、RMSProp、Adam等。
+
+### 7.20
+
++ Read [Python Numpy Tutorial](https://cs231n.github.io/python-numpy-tutorial/)
++ Read [Gradient Check](https://cs231n.github.io/neural-networks-3/)
++ Read [Image Similarity Search and Cosine Similarity](https://www.trybackprop.com/blog/linalg101/part_3_build_image_search)
++ Find [GNN Course](http://web.stanford.edu/class/cs224w/) and [Deep Reinforcement Learning](https://rail.eecs.berkeley.edu/deeprlcourse/)
+
+
+### 7.19
+
++ Read [Visualize CNN](https://cs231n.github.io/understanding-cnn/)
++ Read [SGD](https://cs231n.github.io/optimization-1/)
++ Read [Simple Neural Network](https://cs231n.github.io/neural-networks-case-study/)
+
+
+### 7.18
+
++ Read [Learning Research](https://github.com/pengsida/learning_research)
+
 ### 7.17
 
 + Read [Generative Model(Autoregressive Model & VAE & GAN)](https://cs231n.stanford.edu/slides/2024/lecture_13.pdf)
