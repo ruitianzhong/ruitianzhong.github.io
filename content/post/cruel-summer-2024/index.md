@@ -29,6 +29,25 @@ categories:
 - daily-record
 ---
 
+### 7.24
+
++ Watch [Kaiming He's Talk @ CUHK](https://www.bilibili.com/video/BV1Zz421B7Vf)
+
+### 7.23
+
++ Read [The Ultimate Guide to Kubernetes Networking and Multi-Tenant Gateways](https://blog.moelove.info/the-ultimate-guide-to-kubernetes-networking-and-multi-tenant-gateways)
++ Watch video about [Automatic Mixed Precision](https://www.bilibili.com/video/BV1qJ4m1w7ur)
++ Read [Vector Database](https://guangzhengli.com/blog/zh/vector-database/)
+
+### 7.22
+
++ Read [Hardware Accelerator (CUDA, DSA, etc.)](https://openmlsys.github.io/chapter_accelerator/index.html)
++ Watch video about [KV Cache, Page Attention](https://www.bilibili.com/video/BV1kx4y1x7bu)
++ Watch video about [Distributed Training(DeepSpeed)](https://www.bilibili.com/video/BV1mm42137X8/)
++ Watch video about [Reinforcement Learning: PPO](https://www.bilibili.com/video/BV1iz421h7gb)
++ Watch video about [GPU (Tensor Core)](https://www.bilibili.com/video/BV1rH4y1c7Zs) SIMT, Warp(32 threads), Streaming Multiprocessor, CUDA core(more general) VS. Tensor Core(add and multiply in a period), Special Function Unit, Compute Intensity
++ Watch [Kaiming He's Talk on Learning Deep Representation](https://www.bilibili.com/video/BV1sW421c7SK) (really insightful talk！)
+
 ### 7.21
 
 + Read [Distributed Training](https://openmlsys.github.io/chapter_distributed_training/index.html) (Pipeline Parallelisim，Model Parallelism，Parameter Server，Collective Communication)
