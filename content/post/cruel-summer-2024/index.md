@@ -29,6 +29,15 @@ categories:
 - daily-record
 ---
 
+### 7.26-7.27
+
++ Read [Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/)
+
+### 7.25
+
++ Watch video about [Flash Attention](https://www.bilibili.com/video/BV1UT421k7rA)
+
+
 ### 7.24
 
 + Watch [Kaiming He's Talk @ CUHK](https://www.bilibili.com/video/BV1Zz421B7Vf)
