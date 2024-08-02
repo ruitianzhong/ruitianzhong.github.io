@@ -28,10 +28,7 @@ categories:
 
 ![p1](p1.png "图1")
 
-
-
 ![p2](p2.png "图2")
-
 
 ## 分析过程
 
@@ -58,13 +55,11 @@ categories:
 ![p8](p8.png "图8")
 ![p9](p9.png "图9")
 
-
 从链接脚本可以看出（src/threads/kernel.lds.S），它错误地假定了data段后就是需要清零的bss段（`图10`），实际上在生成位置无关代码(gcc)的时候data段和bss段之间还有一些有用的段（比如base_d就在.data.rel.ro.local段中）（`图11`），程序出现错误；而如果不生成位置无关的代码(正确的情况，也就是使用i386-elf-gcc)，则base_d位于.rodata段中，在.data段之前，因此对.data后的段清零没有影响，程序正确（`图12`）。
 
 ![p10](p10.png "图10")
 ![p11](p11.png "图11")
 ![p12](p12.png "图12")
-
 
 ### 原因小结
 
@@ -74,9 +69,9 @@ categories:
 
 使用-fno-pic禁止GCC产生位置无关的代码，src/Make.config中的CFLAGS = -m32  -g -msoft-float -O0修改为CFLAGS = -m32  -fno-pic -g -msoft-float -O0，在WSL2和物理机上的Ubuntu 22.04 LTS上均经过验证。
 注意：
+
 1. 如果已经编译过代码，请在threads目录下运行make clean
 2. 修改了编译选项后其他所有操作按照《Pintos安装手册》进行，比如操作顺序和bochs的版本）
-
 
 ## 讨论
 
@@ -85,12 +80,12 @@ categories:
 根据云端环境的i386-elf-gcc的版本，推测云端是根据src/misc/toolchain-build.sh这个脚本文件构建的，理论上根据这个脚本构建出的i386-elf-gcc能够使得Pintos正常工作（未经验证）。
 
 步骤大概是：
-1. 通过包管理工具安装GCC 
+
+1. 通过包管理工具安装GCC
 2. 下载6.2.0的GCC源码以及相关依赖
 3. 使用GCC编译出target为i386-elf的i386-elf-gcc（有点交叉编译的感觉，学嵌入式的同学应该比较了解）。
 
 这种方法下载和编译需要花一些时间，此外，GCC本身就支持编译i386的二进制文件，能用一个编译选项解决的问题没有必要在电脑上装两个占用硬盘空间的编译器。而具体是什么导致了两种编译器默认行为的差异还有待研究。
-
 
 2. src/threads/kernel.lds.S链接脚本中只出现了.text、.rodata、.data、.bss段，最终一些在链接脚本中未出现的段却插入了这些段之间当中？（这些段插入的顺序甚至影响了程序的正确性，如果生成位置无关代码的时候，.data.rel.ro.local等段位.data等段之前，它就不会被误认为.bss段而被清零）
 
@@ -99,7 +94,3 @@ categories:
 具体可以参考链接器[ld的文档](https://sourceware.org/binutils/docs-2.37/ld.pdf)
 
 ![p13](p13.png "图13")
-
-
-
-

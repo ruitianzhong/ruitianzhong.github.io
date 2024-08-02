@@ -29,6 +29,15 @@ categories:
 - daily-record
 ---
 
+### 8.1-8.2
+
++ Back to Xi'an
++ Read Matrix Calculus
+
+### 7.31
+
++ Read [PROGRAMMING WITH PCAP](https://www.tcpdump.org/pcap.html)
+
 ### 7.26-7.27
 
 + Read [Kubernetes Tutorials](https://kubernetes.io/docs/tutorials/)
@@ -36,7 +45,6 @@ categories:
 ### 7.25
 
 + Watch video about [Flash Attention](https://www.bilibili.com/video/BV1UT421k7rA)
-
 
 ### 7.24
 
@@ -72,13 +80,11 @@ categories:
 + Read [Image Similarity Search and Cosine Similarity](https://www.trybackprop.com/blog/linalg101/part_3_build_image_search)
 + Find [GNN Course](http://web.stanford.edu/class/cs224w/) and [Deep Reinforcement Learning](https://rail.eecs.berkeley.edu/deeprlcourse/)
 
-
 ### 7.19
 
 + Read [Visualize CNN](https://cs231n.github.io/understanding-cnn/)
 + Read [SGD](https://cs231n.github.io/optimization-1/)
 + Read [Simple Neural Network](https://cs231n.github.io/neural-networks-case-study/)
-
 
 ### 7.18
 
@@ -88,7 +94,6 @@ categories:
 
 + Read [Generative Model(Autoregressive Model & VAE & GAN)](https://cs231n.stanford.edu/slides/2024/lecture_13.pdf)
 + Read [RNN](https://cs231n.stanford.edu/slides/2024/lecture_7.pdf)
-
 
 ### 7.16
 
@@ -117,8 +122,7 @@ categories:
 
 + Finish [static linker lab](https://github.com/ruitianzhong/linker)
 
-
-### 7.4 
+### 7.4
 
 + Interview...
 
@@ -140,4 +144,4 @@ categories:
 
 + Read [The Illustrated Transformer](http://jalammar.github.io/illustrated-transformer/)
 + Read [The Illustrated BERT](https://jalammar.github.io/illustrated-bert/)
-+ Read [Visual and Interactive Guide to the Basics of Neural Networks ](https://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)
++ Read [Visual and Interactive Guide to the Basics of Neural Networks](https://jalammar.github.io/visual-interactive-guide-basics-neural-networks/)
