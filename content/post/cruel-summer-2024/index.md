@@ -6,7 +6,7 @@ summary: "To record what I did in the summer of 2024"
 
 date: 2024-06-30T16:40:00+08:00
 
-lastmod: 2024-06-30T16:40:00+08:00
+lastmod: 2024-08-04T11:11:00+08:00
 
 draft: false
 
@@ -29,6 +29,15 @@ categories:
 - daily-record
 ---
 
+### 8.4
+
++ Read something about diffusion model
+
+### 8.3
+
++ Read something about reinforcement learning and GAN
++ Read [Pytorch: An imperative style, high-performance deep learning library](https://arxiv.org/abs/1912.01703)
+
 ### 8.1-8.2
 
 + Back to Xi'an
@@ -37,6 +46,14 @@ categories:
 ### 7.31
 
 + Read [PROGRAMMING WITH PCAP](https://www.tcpdump.org/pcap.html)
+
+### 7.30
+
++ Read [计算机系统会议论文是如何评审的](https://zhaoxiahust.github.io/blog/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E4%BC%9A%E8%AE%AE%E8%AE%BA%E6%96%87%E6%98%AF%E5%A6%82%E4%BD%95%E8%AF%84%E5%AE%A1%E7%9A%84.pdf) written by Haibo Chen
+
+### 7.29
+
++ Read [Mapping High Level Constructs to LLVM IR](https://mapping-high-level-constructs-to-llvm-ir.readthedocs.io/en/latest/basic-constructs/local-variables.html)
 
 ### 7.26-7.27
 
