@@ -29,9 +29,70 @@ categories:
 - daily-record
 ---
 
+
+### 8.5
+
++ Learn how to use snort
+
+```bash
+sudo ./snort -vd -i <interface_name> "port 9999"
+curl http://localhost --connect-timeout 2000
+mkdir dir
+```
+
++ Learn more about [bash](https://liujiacai.net/blog/2024/04/05/robust-shell-scripting). Useful material: [Shell Style Guide from Google](https://google.github.io/styleguide/shellguide.html)
+
+```bash
+if [[ "foo" == "f*" ]] ; then echo hello; else  echo test; fi
+# blank is important
+if [[ "foo" == f* ]] ; then echo hello ; else echo test; fi
+for (( i=0;i<5;i++)) ; do echo hello ; done
+# Here document
+ cat <<EOF                               
+`ls`
+EOF
+# (())
+if [ $((1+1)) -eq 2 ] ; then echo yes ; fi
+
+# Why export?
+x=1
+export y=2
+# case statement
+case $p in
+world)
+echo hello 
+;;
+esac
+
+declare -a arr=(a b c)
+declare -a map=([hello]=world)
+echo "${arr[@]}"
+echo "${arr}"
+
+echo $$
+echo $@
+echo $?
+
+. example.sh
+```
+
++ Learn about the implication of batch size
+
 ### 8.4
 
 + Read something about diffusion model
+
+> A note about promiscuous vs. non-promiscuous sniffing: The two techniques are very different in style. In standard, non-promiscuous sniffing, a host is sniffing only traffic that is directly related to it. Only traffic to, from, or routed through the host will be picked up by the sniffer. Promiscuous mode, on the other hand, sniffs all traffic on the wire. In a non-switched environment, this could be all network traffic. The obvious advantage to this is that it provides more packets for sniffing, which may or may not be helpful depending on the reason you are sniffing the network. However, there are regressions. Promiscuous mode sniffing is detectable; a host can test with strong reliability to determine if another host is doing promiscuous sniffing. Second, it only works in a non-switched environment (such as a hub, or a switch that is being ARP flooded). Third, on high traffic networks, the host can become quite taxed for system resources.
+
++ `perf` usage notes
+
+```bash
+taskset --cpu-list 2 ls # 2 is not a mask
+taskset -p pid
+```
+
++ Learn about isolate certain cpu cores. [link](https://unix.stackexchange.com/questions/326579/how-to-ensure-exclusive-cpu-availability-for-a-running-process/326585#326585)
++ Read [A Brief History of JavaScript Frameworks](https://primalskill.blog/a-brief-history-of-javascript-frameworks)
 
 ### 8.3
 
