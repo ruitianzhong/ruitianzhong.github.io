@@ -30,6 +30,64 @@ categories:
 ---
 
 
+## 8.8
+
++ Solve Leetcode problems...
+
+## 8.7
+
++ Read [Thinking outside the box: My PhD Odyssey From Single-Server Architecture to Distributed Datastores (Part 1)](https://www.sigops.org/2024/thinking-outside-the-box-my-phd-odyssey-from-single-server-architecture-to-distributed-datastores/) and [Thinking outside the box: My PhD Odyssey From Single-Server Architecture to Distributed Datastores (Part 2)](https://www.sigops.org/2024/thinking-outside-the-box-my-phd-odyssey-from-single-server-architecture-to-distributed-datastores-part-2/)
+
+
+## 8.6
+
++ Read [Advice for Undergraduate](https://cs.stanford.edu/people/karpathy/advice.html)
++ Watch video about [Graph Neural Network(GNN)](https://www.bilibili.com/video/BV1iT4y1d7zP)
++ Read [Revisiting Distributed Memory in the CXL Era](https://www.sigops.org/2024/revisiting-distributed-memory-in-the-cxl-era/)
+
++ Something about Golang's interface
+
+```go
+package main
+
+import "fmt"
+
+type Animal interface {
+	run()
+	skip()
+}
+
+type Cat struct {
+	x int
+}
+
+func (c Cat) run() {
+	fmt.Println("this is cat")
+	c.x = 0
+}
+
+// not a good practice
+func (c *Cat) skip() {
+	fmt.Println("cat skip1!")
+	for i, v := range "hello world" {
+		fmt.Println(i, v)
+	}
+}
+
+func main() {
+	c := Cat{x: 42}
+	c.run()
+	var a Animal
+	fmt.Println(a == nil)
+
+	a = &c
+	// a = c is not ok
+	a.run()
+	fmt.Println(c.x)
+}
+
+```
+
 ### 8.5
 
 + Learn how to use snort
