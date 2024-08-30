@@ -6,7 +6,7 @@ summary: "To record what I did in the summer of 2024"
 
 date: 2024-06-30T16:40:00+08:00
 
-lastmod: 2024-08-04T11:11:00+08:00
+lastmod: 2024-08-30T17:03:00+08:00
 
 draft: false
 
@@ -31,6 +31,61 @@ categories:
 
 
 ## 8.30
+
+Error handling in C++
+
+```cpp
+#include <iostream>
+#include <utility>
+int divide(int a, int b) {
+  if (b == 0)
+    throw "Divide by zero";
+  return a / b;
+}
+
+int main() {
+  try {
+    divide(1, 0);
+
+  } catch (const char *msg) {
+    std::cout << msg << std::endl;
+  }
+  try {
+    divide(10, 0);
+  } catch (...) {
+    using namespace std;
+    cout << "handling error" << endl;
+  }
+  return 0;
+}
+
+```
+
+Error handling in Go
+```go
+package main
+
+import "fmt"
+
+func main() {
+
+        test()
+
+}
+
+func test() {
+        defer func() {
+                if err := recover(); err != nil {
+
+                        fmt.Println(err)
+                }
+        }()
+
+        panic("Some err")
+
+}
+
+```
 
 `decltype` and `auto` in C++
 ```cpp
