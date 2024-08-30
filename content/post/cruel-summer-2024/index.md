@@ -30,6 +30,277 @@ categories:
 ---
 
 
+## 8.30
+
+`decltype` and `auto` in C++
+```cpp
+#include <iostream>
+#include <tuple>
+#include <utility>
+#include <vector>
+auto add(int x, int y) -> decltype(x + y) { return x + y; }
+using namespace std;
+
+auto id(int &&x) -> int {
+  cout << "rv ref" << endl;
+  return x;
+}
+
+auto id(int &x) -> int {
+  cout << "lv ref" << endl;
+  return x;
+}
+
+auto sub(int x, int y) { return x - y; }
+int main() {
+  cout << add(1, 1) << endl;
+  int i{0};
+  id(i++);
+  id(++i);
+  const int x = 1;
+  auto y = x;
+  y++; // no problem
+  auto init = {1, 2, 3, 4, 5};
+
+  vector<int> v = init;
+  sub(1, 1);
+
+  pair<int, int> p = {1, 1};
+  cout << p.first << " " << p.second << endl;
+  auto [a, b] = p;
+  int t1, t2;
+  tuple tp = {1, 2};
+  cout << a << " " << b << endl;
+  tie(t1, t2) = tp;
+  cout << t1 << " " << t2 << endl;
+  tie(t1, t2) = p;
+  cout << t1 << " " << t2 << endl;
+
+  return 0;
+}
+```
+
+
+Perfect forwarding in C++
+
+```cpp
+#include <iostream>
+#include <utility>
+using namespace std;
+
+template <typename T> void test(T &&t) { cout << "rvalue ref" << endl; }
+
+template <typename T> void test(T &t) { cout << "lvalue ref" << endl; }
+
+template <typename T> void forwardTest(T &&t) {
+  test(t);
+  test(std::move(t));
+  test(std::forward<T>(t));
+  cout << "---end---" << endl;
+}
+
+int main() {
+  auto &&v1 = int(0);
+  // universal reference
+  int x = 1;
+  forwardTest(x);
+  forwardTest(int(42));
+  return 0;
+}
+```
+
+Lambda and constexpr in C++
+```cpp
+#include <iostream>
+using namespace std;
+#include <algorithm>
+#include <utility>
+constexpr auto first = 42;
+struct Data {
+public:
+  int x;
+  int y;
+  Data(int _x, int _y) : x(_x), y(_y) {}
+};
+// Example for constexpr and lambda (value, reference and std::move)
+// Something about the Person.
+constexpr int add(int x, int y) { return x + y; }
+
+struct Person {
+  int height;
+  Person(int h) : height(h) {}
+};
+int main(int argc, char *argv[]) {
+
+  int i = 0;
+  auto f1 = [&i](int x) -> int {
+    i += x;
+    return 42;
+  };
+
+  f1(1);
+  f1(1);
+  // non-static variable can be captrued
+  vector<Data> v1;
+
+  v1.emplace_back(1, 2);
+  v1.emplace_back(3, 2);
+  v1.emplace_back(1, 3);
+  sort(v1.begin(), v1.end(), [](Data d1, Data d2) {
+    if (d1.x > d2.x) {
+      return false;
+    }
+    if (d1.x < d2.x) {
+      return true;
+    }
+    return d1.x < d2.y;
+  });
+  for (auto d : v1) {
+    cout << d.x << " " << d.y << endl;
+  }
+  vector<Person> v2;
+
+  v2.emplace_back(178);
+  v2.emplace_back(160);
+  v2.emplace_back(159);
+
+  sort(v2.begin(), v2.end(),
+       [](Person a, Person b) { return a.height < b.height; });
+  for (auto &p : v2) {
+    cout << p.height << endl;
+  }
+
+  vector<Person> v3 = move(v2);
+  cout << v2.size() << endl;
+  // moved into lambda expression here?
+  auto f2 = [v4 = std::move(v3)]() {
+    cout << v4.size() << endl;
+    return;
+  };
+  f2();
+  cout << first << endl;
+  cout << add(1, 1) << " " << add(v3.size(), argc) << endl;
+  array<int, add(1, 1)> arr;
+  // constexpr in constructor function??
+  // not allow!  first=1000;
+  return 0;
+}
+```
+
+```bash
+echo ${!map1[@]}
+for key in ${!map1[@]};do
+echo $key
+done
+```
+
+
+```go
+package main
+
+import (
+        "fmt"
+        "math/rand"
+        "sync"
+        "time"
+)
+
+func main() {
+
+        var wg sync.WaitGroup
+        ch := make(chan Data, 5)
+        wg.Add(2)
+        go produce(&wg, ch)
+        go consume(&wg, ch)
+        wg.Wait()
+
+        ch1 := make(chan Data)
+
+        select {
+        case d := <-ch1:
+                fmt.Println(d)
+
+        case <-time.After(1):
+                fmt.Println("timeout")
+
+        }
+
+        close(ch1)
+        // ok的作用？？？
+        _, ok := <-ch1
+        fmt.Println(ok)
+        multiChannel()
+        ch3 := make(chan int)
+        close(ch3)
+        <-ch3
+        ch4 := make(chan int)
+
+        select {
+        case ch4 <- 1:
+                fmt.Println("ch4")
+        default:
+                fmt.Println("default")
+        }
+
+}
+
+func send(ch chan<- int, num int) {
+
+        for i := 0; i < 10; i++ {
+                ch <- num + i
+                t := time.Duration(rand.Int() % 800)
+                time.Sleep(t * time.Millisecond)
+        }
+        close(ch)
+
+}
+
+func multiChannel() {
+
+        ch1 := make(chan int)
+        ch2 := make(chan int)
+        go send(ch1, 1)
+        go send(ch2, 2)
+        // cnt:=0
+
+        for i := 0; i < 20; i++ {
+
+                select {
+                case x, ok := <-ch1:
+                        fmt.Println(x, 1, ok)
+
+                case x, ok := <-ch2:
+                        fmt.Println(x, 2, ok)
+
+                }
+
+        }
+
+}
+
+type Data struct {
+}
+
+func produce(wg *sync.WaitGroup, ch chan<- Data) {
+        for i := 0; i < 10; i++ {
+                ch <- Data{}
+        }
+        close(ch)
+        wg.Done()
+}
+
+func consume(wg *sync.WaitGroup, ch <-chan Data) {
+        for _ = range ch {
+                fmt.Println("consuming")
+        }
+        wg.Done()
+}
+```
+
+## 8.28-8.29
+
++ Interview...
+
 ## 8.9-8.24
 
 + Solve Leetcode problems...(Hot 100 and Hot 150)
