@@ -30,6 +30,11 @@ categories:
 ---
 
 
+## 9.6-now
+
++ Read *RUDRA: Finding Memory Safety Bugs in Rust at the Ecosystem Scale*
++ Read *OCOLOS: Online COde Layout OptimizationS*
+
 ## 9.1-9.5
 
 + Solve LeetCode problem
