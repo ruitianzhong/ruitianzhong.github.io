@@ -71,6 +71,7 @@ int main() {
 ```
 
 Error handling in Go
+
 ```go
 package main
 
@@ -97,6 +98,7 @@ func test() {
 ```
 
 `decltype` and `auto` in C++
+
 ```cpp
 #include <iostream>
 #include <tuple>
@@ -144,7 +146,6 @@ int main() {
 }
 ```
 
-
 Perfect forwarding in C++
 
 ```cpp
@@ -174,6 +175,7 @@ int main() {
 ```
 
 Lambda and constexpr in C++
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -257,7 +259,6 @@ for key in ${!map1[@]};do
 echo $key
 done
 ```
-
 
 ```go
 package main
@@ -377,7 +378,6 @@ func consume(wg *sync.WaitGroup, ch <-chan Data) {
 
 + Read [Thinking outside the box: My PhD Odyssey From Single-Server Architecture to Distributed Datastores (Part 1)](https://www.sigops.org/2024/thinking-outside-the-box-my-phd-odyssey-from-single-server-architecture-to-distributed-datastores/) and [Thinking outside the box: My PhD Odyssey From Single-Server Architecture to Distributed Datastores (Part 2)](https://www.sigops.org/2024/thinking-outside-the-box-my-phd-odyssey-from-single-server-architecture-to-distributed-datastores-part-2/)
 
-
 ## 8.6
 
 + Read [Advice for Undergraduate](https://cs.stanford.edu/people/karpathy/advice.html)
@@ -392,37 +392,37 @@ package main
 import "fmt"
 
 type Animal interface {
-	run()
-	skip()
+ run()
+ skip()
 }
 
 type Cat struct {
-	x int
+ x int
 }
 
 func (c Cat) run() {
-	fmt.Println("this is cat")
-	c.x = 0
+ fmt.Println("this is cat")
+ c.x = 0
 }
 
 // not a good practice
 func (c *Cat) skip() {
-	fmt.Println("cat skip1!")
-	for i, v := range "hello world" {
-		fmt.Println(i, v)
-	}
+ fmt.Println("cat skip1!")
+ for i, v := range "hello world" {
+  fmt.Println(i, v)
+ }
 }
 
 func main() {
-	c := Cat{x: 42}
-	c.run()
-	var a Animal
-	fmt.Println(a == nil)
+ c := Cat{x: 42}
+ c.run()
+ var a Animal
+ fmt.Println(a == nil)
 
-	a = &c
-	// a = c is not ok
-	a.run()
-	fmt.Println(c.x)
+ a = &c
+ // a = c is not ok
+ a.run()
+ fmt.Println(c.x)
 }
 
 ```
