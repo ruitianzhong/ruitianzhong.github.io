@@ -118,27 +118,27 @@ sections:
       # Choose a layout view
       view: compact
       columns: '2'
-  - block: portfolio
-    id: projects
-    content:
-      title: Projects
-      filters:
-        folders:
-          - project
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      default_button_index: 0
-      # Filter toolbar (optional).
-      # Add or remove as many filters (`filter_button` instances) as you like.
-      # To show all items, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the toolbar, delete the entire `filter_button` block.
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Web Application
-          tag: Web Application
-        - name: Database
-          tag: Database 
+  # - block: portfolio
+  #   id: projects
+  #   content:
+  #     title: Projects
+  #     filters:
+  #       folders:
+  #         - project
+  #     # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+  #     default_button_index: 0
+  #     # Filter toolbar (optional).
+  #     # Add or remove as many filters (`filter_button` instances) as you like.
+  #     # To show all items, set `tag` to "*".
+  #     # To filter by a specific tag, set `tag` to an existing tag name.
+  #     # To remove the toolbar, delete the entire `filter_button` block.
+  #     buttons:
+  #       - name: All
+  #         tag: '*'
+  #       - name: Web Application
+  #         tag: Web Application
+  #       - name: Database
+  #         tag: Database 
     design:
       # Choose how many columns the section has. Valid values: '1' or '2'.
       columns: '1'
@@ -193,19 +193,19 @@ sections:
   #     title: Popular Topics
   #   design:
   #     columns: '2'
-  - block: about.biography
-    id: about
-    content:
-      title: Biography
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-  - block: contact
-    id: contact
-    content:
-      title: Contact
-      subtitle:
-      # Contact (add or remove contact options as necessary)
-      email: ruitian-zhong@outlook.com
+  # - block: about.biography
+  #   id: about
+  #   content:
+  #     title: Biography
+  #     # Choose a user profile to display (a folder name within `content/authors/`)
+  #     username: admin
+  # - block: contact
+  #   id: contact
+  #   content:
+  #     title: Contact
+  #     subtitle:
+  #     # Contact (add or remove contact options as necessary)
+  #     email: ruitian-zhong@outlook.com
       # address:
       #   street: 450 Serra Mall
       #   city: Stanford

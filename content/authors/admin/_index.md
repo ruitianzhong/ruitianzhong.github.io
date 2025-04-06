@@ -24,7 +24,7 @@ organizations:
     url: https://en.xidian.edu.cn/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My interests include operating system, virtualization, distributed system, etc.
+bio: My interests include networked system, virtualization, distributed system, etc.
 
 # Interests to show in About widget
 interests:
